@@ -1,0 +1,611 @@
+./obj/adaptiveQP.o: ../../../source/lencod/src/adaptiveQP.c \
+ ../../../source/lencod/inc/adaptiveQP.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h
+./obj/AEC.o: ../../../source/lencod/src/AEC.c ../../../source/lencod/inc/AEC.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/image.h \
+ ../../../source/lencod/src/../../lcommon/inc/block_info.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/src/../../lencod/inc/vlc.h
+./obj/background.o: ../../../source/lencod/src/background.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h
+./obj/biariencode.o: ../../../source/lencod/src/biariencode.c \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/AEC.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/biariencode.h
+./obj/bitstream.o: ../../../source/lencod/src/bitstream.c \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/transform.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/bitstream.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/AEC.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/wquant.h
+./obj/block.o: ../../../source/lencod/src/block.c \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/transform.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/intra-prediction.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h \
+ ../../../source/lencod/inc/global.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/block.h \
+ ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/rdoq.h ../../../source/lencod/inc/block.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h \
+ ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/wquant.h
+./obj/codingUnit.o: ../../../source/lencod/src/codingUnit.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/refbuf.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/block.h ../../../source/lencod/inc/header.h \
+ ../../../source/lencod/inc/global.h ../../../source/lencod/inc/AEC.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/block_info.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/transform.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/intra-prediction.h \
+ ../../../source/lencod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/lencod/inc/ratecontrol.h
+./obj/configfile.o: ../../../source/lencod/src/configfile.c \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/configfile.h \
+ ../../../source/lencod/inc/tdrdo.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h
+./obj/context_ini.o: ../../../source/lencod/src/context_ini.c \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/AEC.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h
+./obj/EncAdaptiveLoopFilter.o: \
+ ../../../source/lencod/src/EncAdaptiveLoopFilter.c \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/AEC.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h \
+ ../../../source/lencod/src/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/src/../../lencod/inc/AEC.h \
+ ../../../source/lencod/src/../../lencod/inc/vlc.h
+./obj/fast_me.o: ../../../source/lencod/src/fast_me.c \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/fast_me.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/refbuf.h ../../../source/lencod/inc/block.h \
+ ../../../source/lencod/src/../../lcommon/inc/block_info.h
+./obj/golomb.o: ../../../source/lencod/src/golomb.c \
+ ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/vlc.h
+./obj/header.o: ../../../source/lencod/src/header.c \
+ ../../../source/lencod/inc/header.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/transform.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/vlc.h ../../../source/lencod/inc/wquant.h \
+ ../../../source/lencod/inc/pos_info.h
+./obj/image.o: ../../../source/lencod/src/image.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/md5.h \
+ ../../../source/lencod/inc/image.h ../../../source/lencod/inc/refbuf.h \
+ ../../../source/lencod/inc/global.h ../../../source/lencod/inc/header.h \
+ ../../../source/lencod/inc/bitstream.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/configfile.h ../../../source/lencod/inc/AEC.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/wquant.h ../../../source/lencod/inc/tdrdo.h \
+ ../../../source/lencod/inc/ratecontrol.h \
+ ../../../source/lencod/inc/pos_info.h
+./obj/lencod.o: ../../../source/lencod/src/lencod.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/configfile.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/image.h ../../../source/lencod/inc/header.h \
+ ../../../source/lencod/inc/global.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/AEC.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/bitstream.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/fast_me.h ../../../source/lencod/inc/wquant.h \
+ ../../../source/lencod/src/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/pos_info.h ../../../source/lencod/inc/tdrdo.h \
+ ../../../source/lencod/inc/ratecontrol.h \
+ ../../../source/lencod/src/../../lcommon/inc/md5.h
+./obj/loopfilter.o: ../../../source/lencod/src/loopfilter.c \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/AEC.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/loop-filter.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h
+./obj/mv-search.o: ../../../source/lencod/src/mv-search.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/block_info.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/mv-search.h \
+ ../../../source/lencod/inc/refbuf.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/block.h ../../../source/lencod/inc/fast_me.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h
+./obj/pos_info.o: ../../../source/lencod/src/pos_info.c \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/pos_info.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/bitstream.h
+./obj/ratecontrol.o: ../../../source/lencod/src/ratecontrol.c \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/ratecontrol.h
+./obj/rdopt.o: ../../../source/lencod/src/rdopt.c \
+ ../../../source/lencod/inc/rdopt_coding_state.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/refbuf.h ../../../source/lencod/inc/block.h \
+ ../../../source/lencod/inc/vlc.h ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/global.h ../../../source/lencod/inc/AEC.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/transform.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/block_info.h \
+ ../../../source/lencod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/lencod/inc/fast_me.h \
+ ../../../source/lencod/inc/mv-search.h \
+ ../../../source/lencod/inc/wquant.h
+./obj/rdopt_coding_state.o: ../../../source/lencod/src/rdopt_coding_state.c \
+ ../../../source/lencod/inc/AEC.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h
+./obj/rdoq.o: ../../../source/lencod/src/rdoq.c \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/transform.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/rdoq.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/block.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h \
+ ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/wquant.h
+./obj/refbuf.o: ../../../source/lencod/src/refbuf.c \
+ ../../../source/lencod/inc/refbuf.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h
+./obj/slice.o: ../../../source/lencod/src/slice.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/header.h ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/bitstream.h ../../../source/lencod/inc/vlc.h \
+ ../../../source/lencod/inc/image.h \
+ ../../../source/lencod/inc/rdopt_coding_state.h \
+ ../../../source/lencod/inc/AEC.h \
+ ../../../source/lencod/inc/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/loop-filter.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/tdrdo.h ../../../source/lencod/inc/pos_info.h \
+ ../../../source/lencod/inc/wquant.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/src/../../lencod/inc/EncAdaptiveLoopFilter.h \
+ ../../../source/lencod/src/../../lencod/inc/image.h \
+ ../../../source/lencod/inc/ratecontrol.h
+./obj/tdrdo.o: ../../../source/lencod/src/tdrdo.c \
+ ../../../source/lencod/inc/tdrdo.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h
+./obj/vlc.o: ../../../source/lencod/src/vlc.c \
+ ../../../source/lencod/src/../../lcommon/inc/contributors.h \
+ ../../../source/lencod/inc/codingUnit.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/vlc.h
+./obj/wquant.o: ../../../source/lencod/src/wquant.c \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/global.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/inc/../../lcommon/inc/defines.h \
+ ../../../source/lencod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/inc/wquant.h
+./obj/block_info.o: ../../../source/lencod/../lcommon/src/block_info.c \
+ ../../../source/lencod/../lcommon/inc/block_info.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h
+./obj/ComAdaptiveLoopFilter.o: \
+ ../../../source/lencod/../lcommon/src/ComAdaptiveLoopFilter.c \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h
+./obj/comlab215.o: ../../../source/lencod/../lcommon/src/comlab215.c \
+ ../../../source/lencod/../lcommon/inc/comlab215.h
+./obj/inter-prediction.o: \
+ ../../../source/lencod/../lcommon/src/inter-prediction.c \
+ ../../../source/lencod/../lcommon/inc/inter-prediction.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h \
+ ../../../source/lencod/../lcommon/inc/block_info.h
+./obj/intra-prediction.o: \
+ ../../../source/lencod/../lcommon/src/intra-prediction.c \
+ ../../../source/lencod/../lcommon/inc/intra-prediction.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h
+./obj/loop-filter.o: ../../../source/lencod/../lcommon/src/loop-filter.c \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/loop-filter.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/contributors.h
+./obj/md5.o: ../../../source/lencod/../lcommon/src/md5.c \
+ ../../../source/lencod/../lcommon/inc/md5.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/comlab215.h
+./obj/memalloc.o: ../../../source/lencod/../lcommon/src/memalloc.c \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/memalloc.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h
+./obj/transform.o: ../../../source/lencod/../lcommon/src/transform.c \
+ ../../../source/lencod/../lcommon/inc/transform.h \
+ ../../../source/lencod/../lcommon/inc/commonVariables.h \
+ ../../../source/lencod/../lcommon/inc/defines.h \
+ ../../../source/lencod/../lcommon/inc/commonStructures.h \
+ ../../../source/lencod/../lcommon/inc/comlab215.h \
+ ../../../source/lencod/../lcommon/inc/contributors.h

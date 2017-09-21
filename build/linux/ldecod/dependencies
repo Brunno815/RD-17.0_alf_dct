@@ -1,0 +1,355 @@
+./obj/AEC.o: ../../../source/ldecod/src/AEC.c \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/src/../../lcommon/inc/block_info.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod//inc/DecAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../ldecod/inc/global.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../ldecod//inc/../../ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/global.h ../../../source/ldecod/inc/AEC.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/biaridecod.h ../../../source/ldecod/inc/vlc.h
+./obj/b_frame.o: ../../../source/ldecod/src/b_frame.c \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/block_info.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h
+./obj/biaridecod.o: ../../../source/ldecod/src/biaridecod.c \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h
+./obj/bitstream.o: ../../../source/ldecod/src/bitstream.c \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/annexb.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/biaridecod.h
+./obj/block.o: ../../../source/ldecod/src/block.c \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/src/../../lcommon/inc/transform.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/src/../../lcommon/inc/block_info.h \
+ ../../../source/ldecod/src/../../lcommon/inc/intra-prediction.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/block.h ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/vlc.h ../../../source/ldecod/inc/AEC.h
+./obj/codingUnit.o: ../../../source/ldecod/src/codingUnit.c \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/codingUnit.h ../../../source/ldecod/inc/vlc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/transform.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/intra-prediction.h \
+ ../../../source/ldecod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/ldecod/src/../../lcommon/inc/block_info.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/inc/block.h ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/AEC.h ../../../source/ldecod/inc/wquant.h
+./obj/context_ini.o: ../../../source/ldecod/src/context_ini.c \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/biaridecod.h
+./obj/DecAdaptiveLoopFilter.o: \
+ ../../../source/ldecod/src/DecAdaptiveLoopFilter.c \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/vlc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../ldecod/inc/DecAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../ldecod/inc/global.h \
+ ../../../source/ldecod/src/../../ldecod/inc/AEC.h \
+ ../../../source/ldecod/src/../../ldecod/inc/global.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h
+./obj/header.o: ../../../source/ldecod/src/header.c \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/transform.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/vlc.h ../../../source/ldecod/inc/header.h \
+ ../../../source/ldecod/inc/global.h ../../../source/ldecod/inc/AEC.h \
+ ../../../source/ldecod/inc/DecAdaptiveLoopFilter.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../ldecod/inc/global.h \
+ ../../../source/ldecod/inc/pos_info.h \
+ ../../../source/ldecod/inc/wquant.h
+./obj/image.o: ../../../source/ldecod/src/image.c \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/header.h ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/annexb.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/AEC.h ../../../source/ldecod/inc/biaridecod.h \
+ ../../../source/ldecod/src/../../lcommon/inc/loop-filter.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/src/../../lcommon/inc/inter-prediction.h \
+ ../../../source/ldecod/src/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../lcommon/inc/md5.h \
+ ../../../source/ldecod/src/../../ldecod/inc/DecAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../ldecod/inc/global.h \
+ ../../../source/ldecod/inc/pos_info.h \
+ ../../../source/ldecod/inc/wquant.h
+./obj/ldecod.o: ../../../source/ldecod/src/ldecod.c \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/annexb.h ../../../source/ldecod/inc/header.h \
+ ../../../source/ldecod/inc/global.h ../../../source/ldecod/inc/AEC.h \
+ ../../../source/ldecod/src/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/DecAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../ldecod/inc/../../ldecod/inc/global.h \
+ ../../../source/ldecod/inc/pos_info.h \
+ ../../../source/ldecod/inc/wquant.h \
+ ../../../source/ldecod/src/../../lcommon/inc/md5.h
+./obj/loopfilter.o: ../../../source/ldecod/src/loopfilter.c \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/loop-filter.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/inc/AEC.h ../../../source/ldecod/inc/global.h
+./obj/output.o: ../../../source/ldecod/src/output.c \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h
+./obj/pos_info.o: ../../../source/ldecod/src/pos_info.c \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/pos_info.h ../../../source/ldecod/inc/vlc.h
+./obj/vlc.o: ../../../source/ldecod/src/vlc.c \
+ ../../../source/ldecod/src/../../lcommon/inc/contributors.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/vlc.h ../../../source/ldecod/inc/header.h \
+ ../../../source/ldecod/inc/global.h
+./obj/wquant.o: ../../../source/ldecod/src/wquant.c \
+ ../../../source/ldecod/../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/inc/wquant.h \
+ ../../../source/ldecod/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/global.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/inc/../../lcommon/inc/commonStructures.h
+./obj/block_info.o: ../../../source/ldecod/../lcommon/src/block_info.c \
+ ../../../source/ldecod/../lcommon/inc/block_info.h \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/inc/contributors.h
+./obj/ComAdaptiveLoopFilter.o: \
+ ../../../source/ldecod/../lcommon/src/ComAdaptiveLoopFilter.c \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/ComAdaptiveLoopFilter.h \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h
+./obj/comlab215.o: ../../../source/ldecod/../lcommon/src/comlab215.c \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h
+./obj/inter-prediction.o: \
+ ../../../source/ldecod/../lcommon/src/inter-prediction.c \
+ ../../../source/ldecod/../lcommon/inc/inter-prediction.h \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/inc/contributors.h \
+ ../../../source/ldecod/../lcommon/inc/block_info.h
+./obj/intra-prediction.o: \
+ ../../../source/ldecod/../lcommon/src/intra-prediction.c \
+ ../../../source/ldecod/../lcommon/inc/intra-prediction.h \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/inc/contributors.h
+./obj/loop-filter.o: ../../../source/ldecod/../lcommon/src/loop-filter.c \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/loop-filter.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/contributors.h
+./obj/md5.o: ../../../source/ldecod/../lcommon/src/md5.c \
+ ../../../source/ldecod/../lcommon/inc/md5.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h
+./obj/memalloc.o: ../../../source/ldecod/../lcommon/src/memalloc.c \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/memalloc.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/src/../../lcommon/inc/commonStructures.h
+./obj/transform.o: ../../../source/ldecod/../lcommon/src/transform.c \
+ ../../../source/ldecod/../lcommon/inc/transform.h \
+ ../../../source/ldecod/../lcommon/inc/commonVariables.h \
+ ../../../source/ldecod/../lcommon/inc/defines.h \
+ ../../../source/ldecod/../lcommon/inc/commonStructures.h \
+ ../../../source/ldecod/../lcommon/inc/comlab215.h \
+ ../../../source/ldecod/../lcommon/inc/contributors.h

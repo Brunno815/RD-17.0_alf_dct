@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define EN_LAB 0
+
+void openFiles();
+
+extern FILE* files4[4];
+extern FILE* files8[8];
+extern FILE* files16[16];
+extern FILE* files32[32];
+extern int j;

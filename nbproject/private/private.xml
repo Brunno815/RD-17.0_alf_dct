@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lcommon/src/ComAdaptiveLoopFilter.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lcommon/src/transform.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lencod/src/mv-search.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lencod/inc/configfile.h</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lcommon/src/comlab215.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/ldecod/src/DecAdaptiveLoopFilter.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lencod/src/EncAdaptiveLoopFilter.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lencod/src/codingUnit.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lcommon/inc/comlab215.h</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lcommon/inc/commonStructures.h</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lencod/src/configfile.c</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lcommon/inc/transform.h</file>
+            <file>file:/home/brunno/RD17.0_alf_chaveamento/source/lencod/src/lencod.c</file>
+        </group>
+    </open-files>
+</project-private>

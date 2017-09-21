@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="source" name="0">
+      <df name="lcommon">
+        <df name="src">
+          <in>ComAdaptiveLoopFilter.c</in>
+          <in>block_info.c</in>
+          <in>comlab215.c</in>
+          <in>inter-prediction.c</in>
+          <in>intra-prediction.c</in>
+          <in>loop-filter.c</in>
+          <in>md5.c</in>
+          <in>memalloc.c</in>
+          <in>transform.c</in>
+        </df>
+      </df>
+      <df name="lencod">
+        <df name="src">
+          <in>AEC.c</in>
+          <in>EncAdaptiveLoopFilter.c</in>
+          <in>adaptiveQP.c</in>
+          <in>background.c</in>
+          <in>biariencode.c</in>
+          <in>bitstream.c</in>
+          <in>block.c</in>
+          <in>codingUnit.c</in>
+          <in>configfile.c</in>
+          <in>context_ini.c</in>
+          <in>fast_me.c</in>
+          <in>golomb.c</in>
+          <in>header.c</in>
+          <in>image.c</in>
+          <in>lencod.c</in>
+          <in>loopfilter.c</in>
+          <in>mv-search.c</in>
+          <in>pos_info.c</in>
+          <in>ratecontrol.c</in>
+          <in>rdopt.c</in>
+          <in>rdopt_coding_state.c</in>
+          <in>rdoq.c</in>
+          <in>refbuf.c</in>
+          <in>slice.c</in>
+          <in>tdrdo.c</in>
+          <in>vlc.c</in>
+          <in>wquant.c</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>source</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>build/linux/lencod</buildCommandWorkingDir>
+          <buildCommand>make -j16</buildCommand>
+          <cleanCommand>make clean</cleanCommand>
+          <executablePath>build/linux/lencod/../../../source/bin/lencod.exe</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>source/lencod/inc</pElem>
+              <pElem>source/lcommon/inc</pElem>
+              <pElem>build/linux/lencod</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="source/lcommon/src/ComAdaptiveLoopFilter.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="source/lcommon/src/block_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lcommon/src/comlab215.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <preprocessorList>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="source/lcommon/src/inter-prediction.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="source/lcommon/src/intra-prediction.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="source/lcommon/src/loop-filter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lcommon/src/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lcommon/src/memalloc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lcommon/src/transform.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/AEC.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/EncAdaptiveLoopFilter.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="source/lencod/src/adaptiveQP.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/background.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/biariencode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/bitstream.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/block.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/codingUnit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/configfile.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/context_ini.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/fast_me.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/golomb.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/header.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/lencod.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/loopfilter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/mv-search.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/pos_info.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/ratecontrol.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/rdopt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/rdopt_coding_state.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="source/lencod/src/rdoq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/refbuf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/slice.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/tdrdo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/vlc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="source/lencod/src/wquant.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

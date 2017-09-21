@@ -1,0 +1,24 @@
+#include "comlab215.h"
+
+FILE* files4[4];
+FILE* files8[8];
+FILE* files16[16];
+FILE* files32[32];
+int j = 0;
+
+void openFiles(){
+	
+	int i;
+	char *name;
+	char strI[2];
+	
+	strcpy(name,"OUTPUT/files4_");
+	
+	for(i = 0; i < 4; i++){
+		sprintf(strI, "%d", i);
+		strcat(name,strI);
+		printf("%s\n",name);
+		//files4[i] = fopen("OUTPUT/files4_
+	}
+	
+}

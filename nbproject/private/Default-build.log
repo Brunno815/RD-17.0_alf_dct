@@ -1,0 +1,2241 @@
+
+checking dependencies
+compiling object file "obj/adaptiveQP.o" ...
+Making the obj directory
+compiling object file "obj/AEC.o" ...
+compiling object file "obj/background.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/adaptiveQP.h:4,
+                 from ../../../source/lencod/src/adaptiveQP.c:1:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+compiling object file "obj/biariencode.o" ...
+compiling object file "obj/bitstream.o" ...
+In file included from ../../../source/lencod/src/background.c:46:0:
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/AEC.h:40,
+                 from ../../../source/lencod/src/AEC.c:40:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/AEC.c: In function ‘writeCuTypeInfo_SDIP’:
+../../../source/lencod/src/AEC.c:300:9: warning: unused variable ‘real_bit’ [-Wunused-variable]
+     int real_bit = 0 ;
+         ^
+../../../source/lencod/src/AEC.c:299:9: warning: unused variable ‘max_bit’ [-Wunused-variable]
+     int max_bit = 0;
+         ^
+../../../source/lencod/src/AEC.c:298:22: warning: unused variable ‘pAMPCTX’ [-Wunused-variable]
+     BiContextTypePtr pAMPCTX = ctx->amp_contexts;
+                      ^
+../../../source/lencod/src/AEC.c:293:9: warning: variable ‘act_ctx’ set but not used [-Wunused-but-set-variable]
+     int act_ctx = 0;
+         ^
+../../../source/lencod/src/AEC.c:292:10: warning: unused variable ‘binidx’ [-Wunused-variable]
+     int  binidx = 0;
+          ^
+../../../source/lencod/src/AEC.c: In function ‘writeIntraPredMode’:
+../../../source/lencod/src/AEC.c:390:9: warning: unused variable ‘value’ [-Wunused-variable]
+     int value = symbol;
+         ^
+../../../source/lencod/src/AEC.c: In function ‘writeRefFrame’:
+../../../source/lencod/src/AEC.c:428:9: warning: unused variable ‘bw_flag’ [-Wunused-variable]
+     int bw_flag = se->value2 & 0x01;
+         ^
+../../../source/lencod/src/AEC.c:422:11: warning: unused variable ‘refframe_array’ [-Wunused-variable]
+     int **refframe_array = ((img->type == B_IMG) ? img->fw_refFrArr : hc->refFrArr);     //enc_picture->ref_idx[se->value2];
+           ^
+../../../source/lencod/src/AEC.c: In function ‘writeMVD_AEC’:
+../../../source/lencod/src/AEC.c:486:9: warning: unused variable ‘uiBitSize’ [-Wunused-variable]
+     int uiBitSize = currMB->ui_MbBitSize;
+         ^
+../../../source/lencod/src/AEC.c:482:9: warning: unused variable ‘list_idx’ [-Wunused-variable]
+     int list_idx = se->value2 & 0x01;
+         ^
+../../../source/lencod/src/AEC.c:476:9: warning: unused variable ‘j’ [-Wunused-variable]
+     int j = img->subblock_y;
+         ^
+../../../source/lencod/src/AEC.c:475:9: warning: unused variable ‘i’ [-Wunused-variable]
+     int i = img->subblock_x;
+         ^
+../../../source/lencod/src/AEC.c: In function ‘writeDmhMode’:
+../../../source/lencod/src/AEC.c:630:9: warning: unused variable ‘d’ [-Wunused-variable]
+     int d = dmh_mode / DMH_MODE_NUM; // distance flag
+         ^
+../../../source/lencod/src/AEC.c: In function ‘writeCIPredMode’:
+../../../source/lencod/src/AEC.c:895:37: warning: variable ‘b’ set but not used [-Wunused-but-set-variable]
+     int                 act_ctx, a, b;
+                                     ^
+../../../source/lencod/src/AEC.c: In function ‘writeCbpBit’:
+../../../source/lencod/src/AEC.c:964:48: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     int currMB_hor = ((currMB->cuType == P2NXN && uiBitSize > 3 || currMB->cuType == PHOR_UP ||
+                                                ^
+../../../source/lencod/src/AEC.c:965:80: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                        currMB->cuType == PHOR_DOWN) && currMB->trans_size == 1 && input->useNSQT == 1 || currMB->cuType == InNxNMB);
+                                                                                ^
+../../../source/lencod/src/AEC.c:966:48: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+     int currMB_ver = ((currMB->cuType == PNX2N && uiBitSize > 3 || currMB->cuType == PVER_LEFT ||
+                                                ^
+../../../source/lencod/src/AEC.c:967:81: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                        currMB->cuType == PVER_RIGHT) && currMB->trans_size == 1 && input->useNSQT == 1 || currMB->cuType == INxnNMB);
+                                                                                 ^
+../../../source/lencod/src/AEC.c:1008:58: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         block_a_nsqt_hor = ((neighborMB->cuType == P2NXN && neighborMB->ui_MbBitSize > 3 || neighborMB->cuType == PHOR_UP ||
+                                                          ^
+../../../source/lencod/src/AEC.c:1009:94: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                              neighborMB->cuType == PHOR_DOWN) && neighborMB->trans_size == 1 && input->useNSQT == 1 ||
+                                                                                              ^
+../../../source/lencod/src/AEC.c:1011:58: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         block_a_nsqt_ver = ((neighborMB->cuType == PNX2N && neighborMB->ui_MbBitSize > 3 || neighborMB->cuType == PVER_LEFT ||
+                                                          ^
+../../../source/lencod/src/AEC.c:1012:95: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                              neighborMB->cuType == PVER_RIGHT) && neighborMB->trans_size == 1 && input->useNSQT == 1 ||
+                                                                                               ^
+../../../source/lencod/src/AEC.c:1036:58: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         block_b_nsqt_hor = ((neighborMB->cuType == P2NXN && neighborMB->ui_MbBitSize > 3 || neighborMB->cuType == PHOR_UP ||
+                                                          ^
+../../../source/lencod/src/AEC.c:1037:94: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                              neighborMB->cuType == PHOR_DOWN) && neighborMB->trans_size == 1 && input->useNSQT == 1 ||
+                                                                                              ^
+../../../source/lencod/src/AEC.c:1039:58: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         block_b_nsqt_ver = ((neighborMB->cuType == PNX2N && neighborMB->ui_MbBitSize > 3 || neighborMB->cuType == PVER_LEFT ||
+                                                          ^
+../../../source/lencod/src/AEC.c:1040:95: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                              neighborMB->cuType == PVER_RIGHT) && neighborMB->trans_size == 1 && input->useNSQT == 1 ||
+                                                                                               ^
+../../../source/lencod/src/background.c: In function ‘bg_allocModel’:
+../../../source/lencod/src/background.c:92:9: warning: unused variable ‘size_y’ [-Wunused-variable]
+     int size_y = imgW * imgH;
+         ^
+../../../source/lencod/src/AEC.c: In function ‘writeRunLevelRef’:
+../../../source/lencod/src/AEC.c:1471:21: warning: unused variable ‘numCGminus1’ [-Wunused-variable]
+                 int numCGminus1 = numOfCG - 1;
+                     ^
+compiling object file "obj/block.o" ...
+../../../source/lencod/src/AEC.c:1450:58: warning: unused variable ‘firstCGctx’ [-Wunused-variable]
+         int ctx = 0, offset = 0, ctx2 = 0, sigCGctx = 0, firstCGctx = 0;
+                                                          ^
+../../../source/lencod/src/AEC.c:1450:34: warning: unused variable ‘ctx2’ [-Wunused-variable]
+         int ctx = 0, offset = 0, ctx2 = 0, sigCGctx = 0, firstCGctx = 0;
+                                  ^
+../../../source/lencod/src/AEC.c:1399:9: warning: variable ‘px’ set but not used [-Wunused-but-set-variable]
+     int px, py, moddiv, indiv, ctxpos;
+         ^
+../../../source/lencod/src/AEC.c:1392:9: warning: unused variable ‘offsetFirstCG’ [-Wunused-variable]
+     int offsetFirstCG = 0;
+         ^
+../../../source/lencod/src/AEC.c:1391:9: warning: unused variable ‘numFirstCG’ [-Wunused-variable]
+     int numFirstCG = 0;
+         ^
+../../../source/lencod/src/AEC.c:1389:23: warning: unused variable ‘DCT_CGNum’ [-Wunused-variable]
+     int iCG, numOfCG, DCT_CGNum = 0;
+                       ^
+../../../source/lencod/src/AEC.c: In function ‘write_sao_type_AEC’:
+../../../source/lencod/src/AEC.c:2238:26: warning: unused variable ‘ctx’ [-Wunused-variable]
+     SyntaxInfoContexts  *ctx    = img->currentSlice->syn_ctx;
+                          ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/biariencode.c:37:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/biariencode.c: In function ‘biari_encode_symbol_eq_prob’:
+../../../source/lencod/src/biariencode.c:438:22: warning: unused variable ‘ctx’ [-Wunused-variable]
+     BiContextTypePtr ctx = &octx;
+                      ^
+../../../source/lencod/src/biariencode.c: In function ‘biari_encode_symbol_final’:
+../../../source/lencod/src/biariencode.c:494:18: warning: variable ‘s_flag’ set but not used [-Wunused-but-set-variable]
+     unsigned int s_flag = 0;
+                  ^
+../../../source/lencod/src/biariencode.c:493:18: warning: unused variable ‘t_rLPS’ [-Wunused-variable]
+     unsigned int t_rLPS = 0;
+                  ^
+../../../source/lencod/src/biariencode.c:486:22: warning: unused variable ‘ctx’ [-Wunused-variable]
+     BiContextTypePtr ctx = &octx;
+                      ^
+compiling object file "obj/codingUnit.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/bitstream.c:51:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+compiling object file "obj/configfile.o" ...
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+compiling object file "obj/context_ini.o" ...
+In file included from ../../../source/lencod/src/bitstream.c:60:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+../../../source/lencod/src/bitstream.c: In function ‘picture_display_extension’:
+../../../source/lencod/src/bitstream.c:1181:13: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+             if (input->repeat_first_field = 1) {
+             ^
+compiling object file "obj/EncAdaptiveLoopFilter.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/configfile.c:53:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/src/../../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/src/block.c:53:
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+compiling object file "obj/fast_me.o" ...
+../../../source/lencod/src/configfile.c: In function ‘ParseRefContent’:
+../../../source/lencod/src/configfile.c:494:9: warning: unused variable ‘flag’ [-Wunused-variable]
+     int flag = 0;
+         ^
+compiling object file "obj/golomb.o" ...
+In file included from ../../../source/lencod/src/block.c:65:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/codingUnit.h:48,
+                 from ../../../source/lencod/src/codingUnit.c:54:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/context_ini.c:43:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/block.c: In function ‘inverse_quantization’:
+../../../source/lencod/src/block.c:190:11: warning: variable ‘levelscale’ set but not used [-Wunused-but-set-variable]
+     int **levelscale;
+           ^
+../../../source/lencod/src/block.c:182:9: warning: variable ‘ACRun’ set but not used [-Wunused-but-set-variable]
+     int ACRun[MAX_CU_SIZE * MAX_CU_SIZE + 1];
+         ^
+../../../source/lencod/src/block.c: In function ‘intrapred_luma_AVS’:
+../../../source/lencod/src/block.c:905:9: warning: unused variable ‘NumMBWidthInBlk2’ [-Wunused-variable]
+     int NumMBWidthInBlk2 = 1 << (uiBitSize2 - MIN_BLOCK_SIZE_IN_BIT);
+         ^
+../../../source/lencod/src/block.c:904:9: warning: unused variable ‘NumMBWidthInBlk1’ [-Wunused-variable]
+     int NumMBWidthInBlk1 = 1 << (uiBitSize1 - MIN_BLOCK_SIZE_IN_BIT);
+         ^
+../../../source/lencod/src/block.c:898:9: warning: unused variable ‘NumMBWidthInBlk’ [-Wunused-variable]
+     int NumMBWidthInBlk = 1 << (uiBitSize - MIN_BLOCK_SIZE_IN_BIT);   //qyu 0823 uiBitSize 3 1; 4 2; 5 4
+         ^
+../../../source/lencod/src/block.c:897:9: warning: unused variable ‘mb_y’ [-Wunused-variable]
+     int mb_y = uiPositionInPic / MBRowSize;
+         ^
+../../../source/lencod/src/block.c:896:9: warning: unused variable ‘mb_x’ [-Wunused-variable]
+     int mb_x = uiPositionInPic % MBRowSize;
+         ^
+compiling object file "obj/header.o" ...
+../../../source/lencod/src/codingUnit.c: In function ‘terminate_codingUnit’:
+../../../source/lencod/src/codingUnit.c:448:20: warning: unused variable ‘currMB’ [-Wunused-variable]
+     codingUnit    *currMB    = &img->mb_data[img->current_mb_nr];
+                    ^
+../../../source/lencod/src/codingUnit.c: In function ‘LumaResidualCoding8x8_TRANS’:
+../../../source/lencod/src/codingUnit.c:1001:12: warning: unused variable ‘skipped’ [-Wunused-variable]
+     int    skipped   = (fw_mode == 0 && bw_mode == 0 && (img->type != B_IMG));
+            ^
+compiling object file "obj/image.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/EncAdaptiveLoopFilter.c:39:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/codingUnit.h:48,
+                 from ../../../source/lencod/src/golomb.c:49:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/codingUnit.c: In function ‘OneComponentChromaPrediction4x4’:
+../../../source/lencod/src/codingUnit.c:1432:13: warning: unused variable ‘scale’ [-Wunused-variable]
+     int     scale   = 1;
+             ^
+../../../source/lencod/src/codingUnit.c:1430:56: warning: unused variable ‘f4’ [-Wunused-variable]
+     int     f1        = 8 , f2 = f1 - 1, f3 = f1 * f1, f4 = f3 >> 1;
+                                                        ^
+../../../source/lencod/src/codingUnit.c:1430:29: warning: unused variable ‘f2’ [-Wunused-variable]
+     int     f1        = 8 , f2 = f1 - 1, f3 = f1 * f1, f4 = f3 >> 1;
+                             ^
+../../../source/lencod/src/codingUnit.c:1428:13: warning: unused variable ‘refframe’ [-Wunused-variable]
+     int     refframe  = (ref < 0 ?      0 :    ref);
+             ^
+../../../source/lencod/src/codingUnit.c: In function ‘OneComponentChromaPrediction4x4_dir’:
+../../../source/lencod/src/codingUnit.c:1583:11: warning: unused variable ‘scale’ [-Wunused-variable]
+     int   scale   = 1;
+           ^
+../../../source/lencod/src/codingUnit.c:1581:56: warning: unused variable ‘f4’ [-Wunused-variable]
+     int     f1        = 8 , f2 = f1 - 1, f3 = f1 * f1, f4 = f3 >> 1;
+                                                        ^
+../../../source/lencod/src/codingUnit.c:1581:29: warning: unused variable ‘f2’ [-Wunused-variable]
+     int     f1        = 8 , f2 = f1 - 1, f3 = f1 * f1, f4 = f3 >> 1;
+                             ^
+../../../source/lencod/src/codingUnit.c: In function ‘ChromaResidualCoding’:
+../../../source/lencod/src/codingUnit.c:2008:11: warning: unused variable ‘skipped’ [-Wunused-variable]
+     int   skipped = (currMB->cuType == PSKIPDIRECT && ((img->type == F_IMG) || (img->type == P_IMG)));
+           ^
+../../../source/lencod/src/codingUnit.c: In function ‘IntraChromaPrediction8x8’:
+../../../source/lencod/src/codingUnit.c:2178:9: warning: variable ‘mb_pix_y’ set but not used [-Wunused-but-set-variable]
+     int mb_pix_y;
+         ^
+../../../source/lencod/src/codingUnit.c:2176:9: warning: unused variable ‘HalfPixWidth’ [-Wunused-variable]
+     int HalfPixWidth = 1 << (uiBitSize - 1);
+         ^
+../../../source/lencod/src/codingUnit.c:2175:9: warning: unused variable ‘numPUWidthInSMB’ [-Wunused-variable]
+     int numPUWidthInSMB = (1 << (uiBitSize - MIN_BLOCK_SIZE_IN_BIT));
+         ^
+../../../source/lencod/src/codingUnit.c:2169:13: warning: unused variable ‘b8_y’ [-Wunused-variable]
+     int     b8_y              = img_cy / (MIN_BLOCK_SIZE >> 1);
+             ^
+../../../source/lencod/src/codingUnit.c:2168:13: warning: unused variable ‘b8_x’ [-Wunused-variable]
+     int     b8_x              = img_cx / (MIN_BLOCK_SIZE >> 1);
+             ^
+../../../source/lencod/src/codingUnit.c:2167:13: warning: unused variable ‘img_cy_1’ [-Wunused-variable]
+     int     img_cy_1          = img_cy - 1;
+             ^
+../../../source/lencod/src/codingUnit.c:2166:13: warning: unused variable ‘img_cx_1’ [-Wunused-variable]
+     int     img_cx_1          = img_cx - 1;
+             ^
+compiling object file "obj/lencod.o" ...
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘ALFProcess’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:81:9: warning: variable ‘ChromaMarginY’ set but not used [-Wunused-but-set-variable]
+     int ChromaMarginY;
+         ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:80:9: warning: variable ‘ChromaMarginX’ set but not used [-Wunused-but-set-variable]
+     int ChromaMarginX;
+         ^
+../../../source/lencod/src/codingUnit.c:2162:9: warning: variable ‘mb_pix_x’ set but not used [-Wunused-but-set-variable]
+     int mb_pix_x;
+         ^
+In file included from ../../../source/lencod/src/../../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/src/../../lcommon/inc/memalloc.h:49,
+                 from ../../../source/lencod/src/fast_me.c:59:
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/codingUnit.c: In function ‘writeMotionVector8x8_sym’:
+../../../source/lencod/src/codingUnit.c:2726:22: warning: variable ‘pred_mv’ set but not used [-Wunused-but-set-variable]
+     int ** ***       pred_mv    = ((img->type != B_IMG) ? img->mv : (fwd_flag ? img->predBFwMv : img->predBBwMv));
+                      ^
+../../../source/lencod/src/codingUnit.c:2725:22: warning: variable ‘allFwMv’ set but not used [-Wunused-but-set-variable]
+     int ** ***       allFwMv     = (fwd_flag ? img->allFwMv : img->allBwMv);
+                      ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘deriveLoopFilterBoundaryAvailibility’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:216:10: warning: variable ‘smb_mb_height’ set but not used [-Wunused-but-set-variable]
+     int  smb_mb_height    ;
+          ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:215:10: warning: variable ‘smb_mb_width’ set but not used [-Wunused-but-set-variable]
+     int  smb_mb_width     ;
+          ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:209:10: warning: variable ‘NumCUInFrame’ set but not used [-Wunused-but-set-variable]
+     int  NumCUInFrame;
+          ^
+../../../source/lencod/src/codingUnit.c:2724:20: warning: unused variable ‘refindex’ [-Wunused-variable]
+     int            refindex   = (refframe < 0 ? 0 : refframe);
+                    ^
+../../../source/lencod/src/codingUnit.c: In function ‘estLumaCoeff8x8’:
+../../../source/lencod/src/codingUnit.c:2857:21: warning: unused variable ‘currSE’ [-Wunused-variable]
+     SyntaxElement  *currSE    = &img->MB_SyntaxElements[currMB->currSEnr];
+                     ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘calcCorrOneCompRegionLuma’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:660:9: warning: unused variable ‘yPosEnd’ [-Wunused-variable]
+     int yPosEnd = yPos + height;
+         ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘calcCorrOneCompRegionChma’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:779:9: warning: unused variable ‘yPosEnd’ [-Wunused-variable]
+     int yPosEnd = yPos + height;
+         ^
+../../../source/lencod/src/codingUnit.c: In function ‘writeLumaCoeff8x8_AEC’:
+../../../source/lencod/src/codingUnit.c:3428:9: warning: unused variable ‘QPI’ [-Wunused-variable]
+     int QPI   = IQ_TAB[qp];
+         ^
+../../../source/lencod/src/codingUnit.c:3427:9: warning: unused variable ‘shift’ [-Wunused-variable]
+     int shift = IQ_SHIFT[qp];
+         ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘executePicLCUOnOffDecision’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:1175:28: warning: unused variable ‘eep_dp’ [-Wunused-variable]
+     EncodingEnvironmentPtr eep_dp = &(dataPart->ee_AEC);
+                            ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘filterOneCTB’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:1333:9: warning: unused variable ‘skipSize’ [-Wunused-variable]
+     int skipSize = (ALF_FOOTPRINT_SIZE >> 1); //half size of 7x7cross+ 3x3square
+         ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘xcodeFiltCoeff’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:1630:37: warning: variable ‘startSecondFilter’ set but not used [-Wunused-but-set-variable]
+     int filterPattern[NO_VAR_BINS], startSecondFilter = 0, i, g;
+                                     ^
+compiling object file "obj/loopfilter.o" ...
+../../../source/lencod/src/fast_me.c: In function ‘FME_SetMotionVectorPredictor’:
+../../../source/lencod/src/fast_me.c:361:56: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (((ref_frame == img->num_of_references - 1) && (rFrameL != img->num_of_references - 1) ||
+                                                        ^
+../../../source/lencod/src/fast_me.c:373:56: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (((ref_frame == img->num_of_references - 1) && (rFrameU != img->num_of_references - 1) ||
+                                                        ^
+../../../source/lencod/src/fast_me.c:385:56: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (((ref_frame == img->num_of_references - 1) && (rFrameUR != img->num_of_references - 1) ||
+                                                        ^
+../../../source/lencod/src/fast_me.c:397:56: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (((ref_frame == img->num_of_references - 1) && (rFrameUL != img->num_of_references - 1) ||
+                                                        ^
+../../../source/lencod/src/fast_me.c:705:104: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                     if (((mva[0] < 0) && (mvb[0] > 0) && (mvc[0] > 0)) || (mva[0] > 0) && (mvb[0] < 0) && (mvc[0] < 0)) {
+                                                                                                        ^
+../../../source/lencod/src/fast_me.c:737:104: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                     if (((mva[1] < 0) && (mvb[1] > 0) && (mvc[1] > 0)) || (mva[1] > 0) && (mvb[1] < 0) && (mvc[1] < 0)) {
+                                                                                                        ^
+../../../source/lencod/src/codingUnit.c: In function ‘writePMVIdx8x8’:
+../../../source/lencod/src/codingUnit.c:3928:20: warning: unused variable ‘refindex’ [-Wunused-variable]
+     int            refindex   = (refframe < 0 ? 0 : refframe);
+                    ^
+../../../source/lencod/src/codingUnit.c: In function ‘writeMVD8x8’:
+../../../source/lencod/src/codingUnit.c:4017:22: warning: unused variable ‘pred_mv’ [-Wunused-variable]
+     int ** ***       pred_mv    = ((img->type != B_IMG) ? img->mv : (fwd_flag ? img->predBFwMv : img->predBBwMv));
+                      ^
+../../../source/lencod/src/codingUnit.c:4016:22: warning: unused variable ‘allFwMv’ [-Wunused-variable]
+     int ** ***       allFwMv     = (fwd_flag ? img->allFwMv : img->allBwMv);
+                      ^
+../../../source/lencod/src/codingUnit.c:4015:20: warning: unused variable ‘refindex’ [-Wunused-variable]
+     int            refindex   = (refframe < 0 ? 0 : refframe);
+                    ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘xfindBestFilterVarPred’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:1784:20: warning: variable ‘isFirst’ set but not used [-Wunused-but-set-variable]
+     static Boolean isFirst = TRUE;
+                    ^
+../../../source/lencod/src/codingUnit.c: In function ‘writeMVD’:
+../../../source/lencod/src/codingUnit.c:4430:11: warning: unused variable ‘bw_refframe_array’ [-Wunused-variable]
+     int **bw_refframe_array = (img->type == B_IMG) ? img->bw_refFrArr : hc->p_snd_refFrArr;
+           ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘findFilterCoeff’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:2107:20: warning: variable ‘isFirst’ set but not used [-Wunused-but-set-variable]
+     static Boolean isFirst = TRUE;
+                    ^
+../../../source/lencod/src/codingUnit.c: In function ‘write_one_subMB’:
+../../../source/lencod/src/fast_me.c: In function ‘FME_BlockMotionSearch’:
+../../../source/lencod/src/fast_me.c:832:15: warning: unused variable ‘max_value’ [-Wunused-variable]
+     int       max_value = (1 << 20);
+               ^
+../../../source/lencod/src/fast_me.c: In function ‘FastIntegerPelBlockMotionSearch’:
+../../../source/lencod/src/fast_me.c:1203:11: warning: unused variable ‘max_pos’ [-Wunused-variable]
+     int   max_pos       = (2 * search_range + 1) * (2 * search_range + 1); // number of search positions
+           ^
+../../../source/lencod/src/fast_me.c:1202:11: warning: unused variable ‘best_pos’ [-Wunused-variable]
+     int   best_pos      = 0;                                        // position with minimum motion cost
+           ^
+../../../source/lencod/src/block.c: In function ‘quant_B8’:
+../../../source/lencod/src/block.c:115:45: warning: ‘levelscale’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 levelscale_coef = levelscale[yy & (WQMSize - 1)][xx & (WQMSize - 1)];
+                                             ^
+../../../source/lencod/src/block.c:75:9: warning: ‘WQMSize’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int WQMSize;
+         ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘QuantizeIntegerFilterPP’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:2208:20: warning: variable ‘isFirst’ set but not used [-Wunused-but-set-variable]
+     static Boolean isFirst = TRUE;
+                    ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘xfindBestCoeffCodMethod’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:2303:21: warning: variable ‘isFirst’ set but not used [-Wunused-but-set-variable]
+     static Boolean  isFirst = TRUE;
+                     ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c: In function ‘deriveBoundaryAvail’:
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:2521:10: warning: variable ‘NumCUInFrame’ set but not used [-Wunused-but-set-variable]
+     int  NumCUInFrame;
+          ^
+../../../source/lencod/src/EncAdaptiveLoopFilter.c:2518:10: warning: unused variable ‘img_height’ [-Wunused-variable]
+     int  img_height        = img->height;
+          ^
+../../../source/lencod/src/codingUnit.c:4598:9: warning: unused variable ‘LCUNumInPic’ [-Wunused-variable]
+     int LCUNumInPic = WidthInLCU * HeightInLCU;
+         ^
+compiling object file "obj/mv-search.o" ...
+../../../source/lencod/src/fast_me.c: In function ‘FastSubPelBlockMotionSearch’:
+../../../source/lencod/src/fast_me.c:1663:68: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (!input->b_pmvr_enabled || abs(cand_mv_x - ctr_x) <= TH && abs(cand_mv_y - ctr_y) <= TH) { //jcma
+                                                                    ^
+../../../source/lencod/src/fast_me.c: In function ‘FME_BlockMotionSearch_sym’:
+../../../source/lencod/src/fast_me.c:1857:16: warning: unused variable ‘mv_array’ [-Wunused-variable]
+     int ***    mv_array  = ((img->type != B_IMG) ? img->tmp_mv   : ref >= 0 ? img->fw_mv    : img->bw_mv);
+                ^
+../../../source/lencod/src/fast_me.c:1856:15: warning: unused variable ‘ref_array’ [-Wunused-variable]
+     int     **ref_array = ((img->type != B_IMG) ? hc->refFrArr : ref >= 0 ? img->fw_refFrArr : img->bw_refFrArr);
+               ^
+../../../source/lencod/src/fast_me.c:1836:15: warning: unused variable ‘max_value’ [-Wunused-variable]
+     int       max_value = (1 << 20);
+               ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/header.h:50,
+                 from ../../../source/lencod/src/header.c:49:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/fast_me.c: In function ‘FME_BlockMotionSearch_dual’:
+../../../source/lencod/src/fast_me.c:2238:57: warning: variable ‘b8_pix_y’ set but not used [-Wunused-but-set-variable]
+     int       mb_pix_x, mb_pix_y, b8_x, b8_y, b8_pix_x, b8_pix_y, center_x, center_y, bsx, bsy; //,blocksize_y,blocksize_x;
+                                                         ^
+../../../source/lencod/src/fast_me.c:2238:47: warning: variable ‘b8_pix_x’ set but not used [-Wunused-but-set-variable]
+     int       mb_pix_x, mb_pix_y, b8_x, b8_y, b8_pix_x, b8_pix_y, center_x, center_y, bsx, bsy; //,blocksize_y,blocksize_x;
+                                               ^
+../../../source/lencod/src/fast_me.c:2229:15: warning: unused variable ‘max_value’ [-Wunused-variable]
+     int       max_value = (1 << 20);
+               ^
+../../../source/lencod/src/fast_me.c:2224:15: warning: unused variable ‘max_ref’ [-Wunused-variable]
+     int       max_ref = img->num_of_references;
+               ^
+../../../source/lencod/src/fast_me.c: In function ‘FastSubPelBlockMotionSearch_sym’:
+../../../source/lencod/src/fast_me.c:2501:68: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (!input->b_pmvr_enabled || abs(cand_mv_x - ctr_x) <= TH && abs(cand_mv_y - ctr_y) <= TH) { //jcma
+                                                                    ^
+compiling object file "obj/pos_info.o" ...
+../../../source/lencod/src/fast_me.c: In function ‘FastSubPelBlockMotionSearch_bid’:
+../../../source/lencod/src/fast_me.c:2681:68: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if (!input->b_pmvr_enabled || abs(cand_mv_x - ctr_x) <= TH && abs(cand_mv_y - ctr_y) <= TH) { //jcma
+                                                                    ^
+../../../source/lencod/src/fast_me.c:2625:11: warning: variable ‘refframe’ set but not used [-Wunused-but-set-variable]
+     int   refframe;
+           ^
+In file included from ../../../source/lencod/src/header.c:58:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+../../../source/lencod/src/header.c: In function ‘IPictureHeader’:
+../../../source/lencod/src/header.c:137:20: warning: variable ‘bbv_delay_extension’ set but not used [-Wunused-but-set-variable]
+     int bbv_delay, bbv_delay_extension;
+                    ^
+../../../source/lencod/src/header.c: In function ‘PBPictureHeader’:
+compiling object file "obj/ratecontrol.o" ...
+../../../source/lencod/src/header.c:441:20: warning: variable ‘bbv_delay_extension’ set but not used [-Wunused-but-set-variable]
+     int bbv_delay, bbv_delay_extension;
+                    ^
+../../../source/lencod/src/header.c: In function ‘SliceHeader’:
+../../../source/lencod/src/header.c:735:9: warning: unused variable ‘slice_header_flag’ [-Wunused-variable]
+     int slice_header_flag = img->mb_data[img->current_mb_nr].slice_header_flag; //added by mz, 2008.04
+         ^
+../../../source/lencod/src/header.c:734:9: warning: unused variable ‘slice_set_index’ [-Wunused-variable]
+     int slice_set_index = img->mb_data[img->current_mb_nr].slice_set_index; //added by mz, 2008.04
+         ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/image.c:55:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/lencod.c:54:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/src/image.c:69:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+../../../source/lencod/src/image.c: In function ‘report_frame’:
+../../../source/lencod/src/image.c:329:9: warning: embedded ‘\0’ in format [-Wformat-contains-nul]
+         sprintf(MD5str, "%08X%08X%08X%08X\0", MD5val[0], MD5val[1], MD5val[2], MD5val[3]);
+         ^
+../../../source/lencod/src/image.c: In function ‘encode_one_frame’:
+../../../source/lencod/src/image.c:601:24: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wparentheses]
+                     if (AQPStepLength >= 4)
+                        ^
+../../../source/lencod/src/image.c:797:58: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+              he->background_number < he->total_bg_number && he->train_start == 0)) { //total_bg_number
+                                                          ^
+../../../source/lencod/src/image.c: In function ‘prepare_RefInfo’:
+../../../source/lencod/src/image.c:1308:17: warning: unused variable ‘deletePOC’ [-Wunused-variable]
+         Boolean deletePOC = 1;
+                 ^
+../../../source/lencod/src/image.c:1101:9: warning: unused variable ‘flag’ [-Wunused-variable]
+     int flag = 0;
+         ^
+../../../source/lencod/src/image.c: In function ‘init_frame’:
+../../../source/lencod/src/image.c:1557:21: warning: variable ‘nextIndex’ set but not used [-Wunused-but-set-variable]
+                 int nextIndex;
+                     ^
+../../../source/lencod/src/image.c:1429:9: warning: unused variable ‘lcuSize’ [-Wunused-variable]
+     int lcuSize = 1 << input->g_uiMaxSizeInBit;
+         ^
+../../../source/lencod/src/image.c:1426:9: warning: unused variable ‘minCUsInLCU’ [-Wunused-variable]
+     int minCUsInLCU = (1 << (input->g_uiMaxSizeInBit - MIN_CU_SIZE_IN_BIT)) * (1 << (input->g_uiMaxSizeInBit -
+         ^
+../../../source/lencod/src/image.c:1421:9: warning: variable ‘b_interval’ set but not used [-Wunused-but-set-variable]
+     int b_interval, p_interval;
+         ^
+In file included from ../../../source/lencod/src/lencod.c:69:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+../../../source/lencod/src/image.c: In function ‘UnifiedOneForthPix’:
+../../../source/lencod/src/image.c:1933:9: warning: unused variable ‘shift2’ [-Wunused-variable]
+     int shift2 = 14 - input->sample_bit_depth;
+         ^
+In file included from ../../../source/lencod/src/../../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/src/mv-search.c:52:
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/mv-search.c: In function ‘SetMotionVectorPredictor’:
+../../../source/lencod/src/mv-search.c:505:54: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+         if ((ref_frame == img->num_of_references - 1 && rFrameU != img->num_of_references - 1 ||
+                                                      ^
+../../../source/lencod/src/mv-search.c:816:104: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                     if (((mva[0] < 0) && (mvb[0] > 0) && (mvc[0] > 0)) || (mva[0] > 0) && (mvb[0] < 0) && (mvc[0] < 0)) {
+                                                                                                        ^
+../../../source/lencod/src/mv-search.c:845:104: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                     if (((mva[1] < 0) && (mvb[1] > 0) && (mvc[1] > 0)) || (mva[1] > 0) && (mvb[1] < 0) && (mvc[1] < 0)) {
+                                                                                                        ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/pos_info.c:38:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/mv-search.c: In function ‘SetSkipMotionVectorPredictor’:
+../../../source/lencod/src/mv-search.c:960:9: warning: variable ‘bRefFrame’ set but not used [-Wunused-but-set-variable]
+     int bRefFrame[2][6];
+         ^
+../../../source/lencod/src/mv-search.c:959:57: warning: variable ‘mb_nb_UL’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                                                         ^
+../../../source/lencod/src/mv-search.c:959:47: warning: variable ‘mb_nb_UR’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                                               ^
+../../../source/lencod/src/mv-search.c:959:37: warning: variable ‘mb_nb_U1’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                                     ^
+../../../source/lencod/src/mv-search.c:959:28: warning: variable ‘mb_nb_U’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                            ^
+../../../source/lencod/src/mv-search.c:959:18: warning: variable ‘mb_nb_L1’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                  ^
+../../../source/lencod/src/mv-search.c:959:9: warning: variable ‘mb_nb_L’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+         ^
+../../../source/lencod/src/mv-search.c: In function ‘setPSkipMotionVector’:
+../../../source/lencod/src/mv-search.c:1387:49: warning: unused variable ‘sym_flag’ [-Wunused-variable]
+     int bid_flag = 0, bw_flag = 0, fw_flag = 0, sym_flag = 0, bid2 = 0, fw2 = 0;
+                                                 ^
+../../../source/lencod/src/mv-search.c:1387:23: warning: unused variable ‘bw_flag’ [-Wunused-variable]
+     int bid_flag = 0, bw_flag = 0, fw_flag = 0, sym_flag = 0, bid2 = 0, fw2 = 0;
+                       ^
+../../../source/lencod/src/mv-search.c:1383:57: warning: variable ‘mb_nb_UL’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                                                         ^
+../../../source/lencod/src/mv-search.c:1383:47: warning: variable ‘mb_nb_UR’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                                               ^
+../../../source/lencod/src/image.c: At top level:
+../../../source/lencod/src/image.c:99:13: warning: ‘writeout_slice’ declared ‘static’ but never defined [-Wunused-function]
+ static int  writeout_slice();
+             ^
+../../../source/lencod/src/mv-search.c:1383:37: warning: variable ‘mb_nb_U1’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                                     ^
+../../../source/lencod/src/mv-search.c:1383:28: warning: variable ‘mb_nb_U’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                            ^
+../../../source/lencod/src/mv-search.c:1383:18: warning: variable ‘mb_nb_L1’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+                  ^
+../../../source/lencod/src/mv-search.c:1383:9: warning: variable ‘mb_nb_L’ set but not used [-Wunused-but-set-variable]
+     int mb_nb_L, mb_nb_L1, mb_nb_U, mb_nb_U1, mb_nb_UR, mb_nb_UL;
+         ^
+../../../source/lencod/src/mv-search.c: In function ‘SubPelBlockMotionSearch_bid’:
+../../../source/lencod/src/mv-search.c:2600:42: warning: variable ‘DistanceIndexBw’ set but not used [-Wunused-but-set-variable]
+     int   delta_P, TRp, DistanceIndexFw, DistanceIndexBw, refframe , delta_PB;
+                                          ^
+../../../source/lencod/src/mv-search.c: In function ‘BlockMotionSearch’:
+../../../source/lencod/src/mv-search.c:2899:15: warning: unused variable ‘max_value’ [-Wunused-variable]
+     int       max_value     = (1 << 20);
+               ^
+../../../source/lencod/src/lencod.c: In function ‘main’:
+../../../source/lencod/src/lencod.c:152:9: warning: unused variable ‘flag_dd’ [-Wunused-variable]
+     int flag_dd = 0;
+         ^
+../../../source/lencod/src/pos_info.c:107:1: warning: return type defaults to ‘int’ [-Wreturn-type]
+ free_buffer(int end)
+ ^
+../../../source/lencod/src/mv-search.c: In function ‘BlockMotionSearch_sym’:
+../../../source/lencod/src/mv-search.c:3070:16: warning: unused variable ‘mv_array’ [-Wunused-variable]
+     int ***    mv_array  = ((img->type != B_IMG) ? img->tmp_mv   : ref >= 0 ? img->fw_mv    : img->bw_mv);
+                ^
+../../../source/lencod/src/mv-search.c:3069:15: warning: unused variable ‘ref_array’ [-Wunused-variable]
+     int     **ref_array = ((img->type != B_IMG) ? hc->refFrArr : ref >= 0 ? img->fw_refFrArr : img->bw_refFrArr);
+               ^
+../../../source/lencod/src/mv-search.c:3044:15: warning: unused variable ‘max_value’ [-Wunused-variable]
+     int       max_value = (1 << 20);
+               ^
+../../../source/lencod/src/mv-search.c: In function ‘BlockMotionSearch_dual’:
+../../../source/lencod/src/block.c: In function ‘inverse_quantization’:
+../../../source/lencod/src/block.c:433:52: warning: ‘wqm_coef’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     temp = ((((((long long int)val * wqm_coef) >> wqm_shift) * QPI) >> 4) + (long long int)(1 << (shift - 1))) >>
+                                                    ^
+../../../source/lencod/src/mv-search.c:3275:15: warning: unused variable ‘max_value’ [-Wunused-variable]
+     int       max_value = (1 << 20);
+               ^
+../../../source/lencod/src/block.c:401:25: warning: ‘WQMSize’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 iStride = WQMSize >> 2;
+                         ^
+../../../source/lencod/src/block.c:397:21: warning: ‘WQMSizeId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             else if (WQMSizeId == 2) {
+                     ^
+../../../source/lencod/src/block.c:183:11: warning: ‘AVS_SCAN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int **AVS_SCAN;
+           ^
+../../../source/lencod/src/mv-search.c:3270:15: warning: unused variable ‘max_ref’ [-Wunused-variable]
+     int       max_ref = img->num_of_references;
+               ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/loopfilter.c:50:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/mv-search.c: In function ‘mvd_prediction’:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/mv-search.c:3878:23: warning: variable ‘abs_C’ set but not used [-Wunused-but-set-variable]
+     int abs_U, abs_L, abs_C;
+                       ^
+../../../source/lencod/src/mv-search.c: In function ‘PskipMV_COL’:
+../../../source/lencod/src/mv-search.c:3912:12: warning: unused variable ‘cur_mv’ [-Wunused-variable]
+     int ***cur_mv = img->tmp_mv;
+            ^
+../../../source/lencod/src/pos_info.c: In function ‘free_buffer’:
+../../../source/lencod/src/pos_info.c:117:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../../../source/lencod/src/pos_info.c: In function ‘ReadPosInfo’:
+../../../source/lencod/src/pos_info.c:183:15: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+         fscanf(fin, "%d %d", &frame, &num);
+               ^
+../../../source/lencod/src/pos_info.c:189:19: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(fin, "%d %d %d %d %d", &posInfoBuffer[buffSize - 1][j].rectID, &posInfoBuffer[buffSize - 1][j].x, \
+                   ^
+../../../source/lencod/src/pos_info.c:199:19: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(fin, "%d %d", &frame, &num);
+                   ^
+../../../source/lencod/src/pos_info.c:207:23: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+                 fscanf(fin, "%d %d %d %d %d", &posInfoBuffer[i][j].rectID, &posInfoBuffer[i][j].x, \
+                       ^
+../../../source/lencod/src/mv-search.c:3909:11: warning: unused variable ‘cur_ref’ [-Wunused-variable]
+     int **cur_ref = hc->refFrArr;
+           ^
+../../../source/lencod/src/mv-search.c:3907:9: warning: unused variable ‘blockshape_mb_y’ [-Wunused-variable]
+     int blockshape_mb_y = blockshape_pix_y >> MIN_CU_SIZE_IN_BIT;
+         ^
+../../../source/lencod/src/mv-search.c:3906:9: warning: unused variable ‘blockshape_mb_x’ [-Wunused-variable]
+     int blockshape_mb_x = blockshape_pix_x >> MIN_CU_SIZE_IN_BIT;
+         ^
+../../../source/lencod/src/mv-search.c:3903:9: warning: unused variable ‘pic_pix_y’ [-Wunused-variable]
+     int pic_pix_y = mb_y << (MIN_CU_SIZE_IN_BIT);
+         ^
+../../../source/lencod/src/mv-search.c:3902:9: warning: unused variable ‘pic_pix_x’ [-Wunused-variable]
+     int pic_pix_x = mb_x << (MIN_CU_SIZE_IN_BIT);
+         ^
+../../../source/lencod/src/mv-search.c: In function ‘FindSkipModeMotionVectorInCCD’:
+../../../source/lencod/src/mv-search.c:4005:10: warning: unused variable ‘mv’ [-Wunused-variable]
+     int *mv  = img->mv[0][0][0][0];
+          ^
+../../../source/lencod/src/mv-search.c:4004:15: warning: unused variable ‘allFwMv’ [-Wunused-variable]
+     int ** ***allFwMv = img->allFwMv;
+               ^
+../../../source/lencod/src/mv-search.c:4003:12: warning: unused variable ‘tmpmv’ [-Wunused-variable]
+     int ***tmpmv = img->tmp_mv;
+            ^
+../../../source/lencod/src/mv-search.c:4002:11: warning: unused variable ‘refar’ [-Wunused-variable]
+     int **refar = hc->refFrArr;
+           ^
+../../../source/lencod/src/mv-search.c:4001:9: warning: unused variable ‘block8_y’ [-Wunused-variable]
+     int block8_y = mb_y << 1;
+         ^
+../../../source/lencod/src/mv-search.c:4000:9: warning: unused variable ‘block8_x’ [-Wunused-variable]
+     int block8_x = mb_x << 1; //qyu 0830
+         ^
+../../../source/lencod/src/mv-search.c: In function ‘GetcurCanPositionCostBid_NoMV’:
+../../../source/lencod/src/mv-search.c:4051:10: warning: variable ‘distortion’ set but not used [-Wunused-but-set-variable]
+     int  distortion;
+          ^
+../../../source/lencod/src/mv-search.c:4039:11: warning: unused variable ‘mv_shift’ [-Wunused-variable]
+     int   mv_shift        = 0;
+           ^
+../../../source/lencod/src/mv-search.c: In function ‘Get_direct’:
+../../../source/lencod/src/mv-search.c:4195:10: warning: variable ‘scale_refframe’ set but not used [-Wunused-but-set-variable]
+     int  scale_refframe;
+          ^
+../../../source/lencod/src/lencod.c: In function ‘report’:
+../../../source/lencod/src/lencod.c:1396:10: warning: variable ‘name’ set but not used [-Wunused-but-set-variable]
+     char name[20];
+          ^
+../../../source/lencod/src/lencod.c: In function ‘SetImgType’:
+../../../source/lencod/src/lencod.c:2331:23: warning: variable ‘start’ set but not used [-Wunused-but-set-variable]
+     int model_number, start;
+                       ^
+../../../source/lencod/src/lencod.c: In function ‘mergeFld2Frm’:
+../../../source/lencod/src/lencod.c:2503:9: warning: unused variable ‘shift1’ [-Wunused-variable]
+     int shift1 = input->sample_bit_depth - input->input_sample_bit_depth;
+         ^
+../../../source/lencod/src/lencod.c: In function ‘readOneFrameFromDisk’:
+../../../source/lencod/src/lencod.c:2604:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long long int’ [-Wformat=]
+         printf("ReadOneFrame: cannot read %d bytes from input file, unexpected EOF?, exiting", framesize_in_bytes);
+         ^
+../../../source/lencod/src/loopfilter.c: In function ‘xSetEdgeFilter_One_SMB’:
+../../../source/lencod/src/loopfilter.c:182:10: warning: unused variable ‘iBoundary_end’ [-Wunused-variable]
+     int  iBoundary_end = (pix_x_InPic_end > img->width) || (pix_y_InPic_end > img->height);
+          ^
+../../../source/lencod/src/loopfilter.c: In function ‘SetEdgeFilter’:
+../../../source/lencod/src/loopfilter.c:330:9: warning: variable ‘num_of_orgMB’ set but not used [-Wunused-but-set-variable]
+     int num_of_orgMB;
+         ^
+../../../source/lencod/src/loopfilter.c: In function ‘DeblockMb’:
+../../../source/lencod/src/loopfilter.c:507:71: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                         if ((mb_y % 2 == 0 && dir) || (mb_x % 2 == 0) && (!dir)) {
+                                                                       ^
+../../../source/lencod/src/loopfilter.c:544:71: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                         if ((mb_y % 2 == 0 && dir) || (mb_x % 2 == 0) && (!dir)) {
+                                                                       ^
+../../../source/lencod/src/loopfilter.c:462:19: warning: variable ‘flag’ set but not used [-Wunused-but-set-variable]
+     int           flag = 0;
+                   ^
+../../../source/lencod/src/header.c: In function ‘IPictureHeader’:
+../../../source/lencod/src/header.c:205:24: warning: ‘displaydelay’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             len += ue_v("picture_output_delay", displaydelay, bitstream);
+                        ^
+../../../source/lencod/src/loopfilter.c: In function ‘getStatblk’:
+../../../source/lencod/src/loopfilter.c:1126:14: warning: unused variable ‘cnt’ [-Wunused-variable]
+     long int cnt[5] = {0};
+              ^
+compiling object file "obj/rdopt.o" ...
+compiling object file "obj/rdopt_coding_state.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/rdopt_coding_state.h:51,
+                 from ../../../source/lencod/src/rdopt.c:50:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/src/rdopt.c:68:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+../../../source/lencod/src/rdopt.c: In function ‘calcHAD’:
+../../../source/lencod/src/rdopt.c:565:9: warning: unused variable ‘uiSum’ [-Wunused-variable]
+     int uiSum = 0, sad, sum_sad = 0;
+         ^
+../../../source/lencod/src/header.c: In function ‘PBPictureHeader’:
+../../../source/lencod/src/header.c:519:24: warning: ‘displaydelay’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             len += ue_v("displaydelay", displaydelay, bitstream);
+                        ^
+../../../source/lencod/src/rdopt.c: In function ‘calcHAD4x4’:
+../../../source/lencod/src/rdopt.c:656:9: warning: unused variable ‘uiSum’ [-Wunused-variable]
+     int uiSum = 0, sad, sum_sad = 0;
+         ^
+../../../source/lencod/src/rdopt.c: In function ‘calcHAD8x2’:
+../../../source/lencod/src/rdopt.c:753:9: warning: unused variable ‘uiSum’ [-Wunused-variable]
+     int uiSum = 0, sad, sum_sad = 0;
+         ^
+../../../source/lencod/src/rdopt.c: In function ‘calcHAD2x8’:
+../../../source/lencod/src/rdopt.c:820:9: warning: unused variable ‘uiSum’ [-Wunused-variable]
+     int uiSum = 0, sad, sum_sad = 0;
+         ^
+../../../source/lencod/src/rdopt.c: In function ‘calcHAD16x4’:
+../../../source/lencod/src/rdopt.c:889:9: warning: unused variable ‘uiSum’ [-Wunused-variable]
+     int uiSum = 0, sad, sum_sad = 0;
+         ^
+../../../source/lencod/src/rdopt.c: In function ‘calcHAD4x16’:
+../../../source/lencod/src/rdopt.c:1007:9: warning: unused variable ‘uiSum’ [-Wunused-variable]
+     int uiSum = 0, sad, sum_sad = 0;
+         ^
+../../../source/lencod/src/rdopt.c: In function ‘RDCost_for_codingUnits’:
+../../../source/lencod/src/rdopt.c:2014:17: warning: unused variable ‘bframe’ [-Wunused-variable]
+     int         bframe        = (img->type == B_IMG);
+                 ^
+../../../source/lencod/src/rdopt.c: In function ‘set_stored_codingUnit_parameters’:
+../../../source/lencod/src/rdopt.c:2481:9: warning: unused variable ‘LCUNumInPic’ [-Wunused-variable]
+     int LCUNumInPic = WidthInLCU * HeightInLCU;
+         ^
+../../../source/lencod/src/rdopt.c: In function ‘encode_SubMB’:
+../../../source/lencod/src/rdopt.c:3534:86: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+                     if (mode ==  INxnNMB && (modeRDcost[InNxNMB] < modeRDcost[I16MB] && modeRDcost[InNxNMB] < modeRDcost[I8MB] ||
+                                                                                      ^
+compiling object file "obj/rdoq.o" ...
+../../../source/lencod/src/rdopt.c:3462:13: warning: variable ‘secBestMode’ set but not used [-Wunused-but-set-variable]
+         int secBestMode = 0;
+             ^
+../../../source/lencod/src/rdopt.c:3305:17: warning: unused variable ‘pix_c_x’ [-Wunused-variable]
+     int         pix_c_x       = pix_x >> 1;
+                 ^
+../../../source/lencod/src/rdopt.c:3303:17: warning: unused variable ‘pix_c_y’ [-Wunused-variable]
+     int         pix_c_y       = input->chroma_format == 1 ? (pix_y >> 1) : pix_y;
+                 ^
+../../../source/lencod/src/rdopt.c:3301:37: warning: unused variable ‘BGflag_16x8_down’ [-Wunused-variable]
+     int         BGflag_16x8_up = 0, BGflag_16x8_down = 0;
+                                     ^
+../../../source/lencod/src/rdopt.c:3301:17: warning: unused variable ‘BGflag_16x8_up’ [-Wunused-variable]
+     int         BGflag_16x8_up = 0, BGflag_16x8_down = 0;
+                 ^
+../../../source/lencod/src/rdopt.c:3300:55: warning: unused variable ‘BGflag_8x16_right’ [-Wunused-variable]
+     int         BGflag_8x8 = 0, BGflag_8x16_left = 0, BGflag_8x16_right = 0;
+                                                       ^
+../../../source/lencod/src/rdopt.c:3300:33: warning: unused variable ‘BGflag_8x16_left’ [-Wunused-variable]
+     int         BGflag_8x8 = 0, BGflag_8x16_left = 0, BGflag_8x16_right = 0;
+                                 ^
+../../../source/lencod/src/rdopt.c:3300:17: warning: unused variable ‘BGflag_8x8’ [-Wunused-variable]
+     int         BGflag_8x8 = 0, BGflag_8x16_left = 0, BGflag_8x16_right = 0;
+                 ^
+../../../source/lencod/src/rdopt.c:3299:39: warning: unused variable ‘sum_diff_16x8_down’ [-Wunused-variable]
+     int         sum_diff_16x8_up = 0, sum_diff_16x8_down = 0;
+                                       ^
+../../../source/lencod/src/rdopt.c:3299:17: warning: unused variable ‘sum_diff_16x8_up’ [-Wunused-variable]
+     int         sum_diff_16x8_up = 0, sum_diff_16x8_down = 0;
+                 ^
+../../../source/lencod/src/rdopt.c:3298:41: warning: unused variable ‘sum_diff_8x16_right’ [-Wunused-variable]
+     int         sum_diff_8x16_left = 0, sum_diff_8x16_right = 0;
+                                         ^
+../../../source/lencod/src/rdopt.c:3298:17: warning: unused variable ‘sum_diff_8x16_left’ [-Wunused-variable]
+     int         sum_diff_8x16_left = 0, sum_diff_8x16_right = 0;
+                 ^
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/AEC.h:40,
+                 from ../../../source/lencod/src/rdopt_coding_state.c:54:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+compiling object file "obj/refbuf.o" ...
+../../../source/lencod/src/mv-search.c: In function ‘check_mv_range_sym’:
+../../../source/lencod/src/mv-search.c:337:21: warning: ‘bw_mvy’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if( !check_mv_range(uiBitSize, bw_mvx, bw_mvy, pix_x, pix_y, blocktype, dmh_x,dmh_y) )
+                     ^
+../../../source/lencod/src/mv-search.c:337:21: warning: ‘bw_mvx’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../../../source/lencod/src/mv-search.c: In function ‘SetMotionVectorPredictor’:
+../../../source/lencod/src/mv-search.c:430:9: warning: ‘upright’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int upright;
+         ^
+In file included from ../../../source/lencod/src/../../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/src/../../lcommon/inc/transform.h:34,
+                 from ../../../source/lencod/src/rdoq.c:36:
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/src/rdoq.c:40:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/refbuf.h:51,
+                 from ../../../source/lencod/src/refbuf.c:50:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/rdoq.c: In function ‘rdoq_cg’:
+../../../source/lencod/src/rdoq.c:651:36: warning: unused variable ‘curCost’ [-Wunused-variable]
+                             double curCost = 0;
+                                    ^
+../../../source/lencod/src/rdoq.c:633:29: warning: unused variable ‘n’ [-Wunused-variable]
+                         int n = 0;
+                             ^
+../../../source/lencod/src/rdoq.c:839:25: warning: unused variable ‘prevCGFlagSum’ [-Wunused-variable]
+                     int prevCGFlagSum = (iCG + 1 >= CG_num ? 0 : sigCGFlag[ iCG + 1 ]) * 2 + (iCG + 2 >= CG_num ? 0 : sigCGFlag[ iCG + 2 ]);
+                         ^
+../../../source/lencod/src/rdoq.c:837:30: warning: variable ‘CGy’ set but not used [-Wunused-but-set-variable]
+                     int CGx, CGy;
+                              ^
+../../../source/lencod/src/rdoq.c:837:25: warning: variable ‘CGx’ set but not used [-Wunused-but-set-variable]
+                     int CGx, CGy;
+                         ^
+../../../source/lencod/src/rdoq.c:956:31: warning: variable ‘prev_last_pair’ set but not used [-Wunused-but-set-variable]
+             int prev_last_CG, prev_last_pair;
+                               ^
+../../../source/lencod/src/rdoq.c:956:17: warning: variable ‘prev_last_CG’ set but not used [-Wunused-but-set-variable]
+             int prev_last_CG, prev_last_pair;
+                 ^
+../../../source/lencod/src/rdoq.c:955:20: warning: variable ‘currUncodedCost’ set but not used [-Wunused-but-set-variable]
+             double currUncodedCost;
+                    ^
+../../../source/lencod/src/rdoq.c:212:12: warning: unused variable ‘d64BaseCost’ [-Wunused-variable]
+     double d64BaseCost = 0;
+            ^
+../../../source/lencod/src/rdoq.c:211:9: warning: unused variable ‘iCGLastScanPos’ [-Wunused-variable]
+     int iCGLastScanPos = -1;
+         ^
+../../../source/lencod/src/rdoq.c:209:54: warning: unused variable ‘firstCGctx’ [-Wunused-variable]
+     int ctx = 0, offset = 0, ctx2 = 0, sigCGctx = 0, firstCGctx = 0;
+                                                      ^
+../../../source/lencod/src/rdoq.c:209:30: warning: unused variable ‘ctx2’ [-Wunused-variable]
+     int ctx = 0, offset = 0, ctx2 = 0, sigCGctx = 0, firstCGctx = 0;
+                              ^
+../../../source/lencod/src/rdoq.c:209:18: warning: unused variable ‘offset’ [-Wunused-variable]
+     int ctx = 0, offset = 0, ctx2 = 0, sigCGctx = 0, firstCGctx = 0;
+                  ^
+../../../source/lencod/src/rdoq.c:209:9: warning: unused variable ‘ctx’ [-Wunused-variable]
+     int ctx = 0, offset = 0, ctx2 = 0, sigCGctx = 0, firstCGctx = 0;
+         ^
+../../../source/lencod/src/rdoq.c:201:9: warning: unused variable ‘pair_num’ [-Wunused-variable]
+     int pair_num = 0;
+         ^
+../../../source/lencod/src/rdoq.c:188:16: warning: variable ‘QPI’ set but not used [-Wunused-but-set-variable]
+     int shift, QPI;
+                ^
+../../../source/lencod/src/rdoq.c:188:9: warning: variable ‘shift’ set but not used [-Wunused-but-set-variable]
+     int shift, QPI;
+         ^
+../../../source/lencod/src/rdoq.c:187:19: warning: variable ‘qp_const’ set but not used [-Wunused-but-set-variable]
+     int lowerInt, qp_const;
+                   ^
+compiling object file "obj/slice.o" ...
+compiling object file "obj/tdrdo.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/src/slice.c:56:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+compiling object file "obj/vlc.o" ...
+../../../source/lencod/src/mv-search.c: In function ‘SetSkipMotionVectorPredictor’:
+In file included from ../../../source/lencod/src/slice.c:69:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+In file included from ../../../source/lencod/inc/tdrdo.h:35:0,
+                 from ../../../source/lencod/src/tdrdo.c:38:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/mv-search.c:1341:54: warning: ‘bid2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         img->tmp_fwBSkipMv[DS_FORWARD][1] = pmv[1][1][bid2];
+                                                      ^
+../../../source/lencod/src/mv-search.c:958:9: warning: ‘upright’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int upright;
+         ^
+../../../source/lencod/src/slice.c: In function ‘picture_data’:
+../../../source/lencod/src/slice.c:291:21: warning: unused variable ‘cuInPicHeight’ [-Wunused-variable]
+                 int cuInPicHeight = img->height / MIN_CU_SIZE; //8
+                     ^
+../../../source/lencod/src/slice.c:585:13: warning: unused variable ‘cuInPicHeight’ [-Wunused-variable]
+         int cuInPicHeight = img->height / MIN_CU_SIZE; //8
+             ^
+../../../source/lencod/src/slice.c:703:25: warning: unused variable ‘cuInPicHeight’ [-Wunused-variable]
+                     int cuInPicHeight = img->height / MIN_CU_SIZE; //8
+                         ^
+../../../source/lencod/src/slice.c:208:46: warning: variable ‘NumCUInFrame’ set but not used [-Wunused-but-set-variable]
+     int numLCUInPicWidth, numLCUInPicHeight, NumCUInFrame, lcuHeight, lcuWidth;
+                                              ^
+../../../source/lencod/src/slice.c:205:13: warning: variable ‘currAlfEnable’ set but not used [-Wunused-but-set-variable]
+     Boolean currAlfEnable;
+             ^
+../../../source/lencod/src/tdrdo.c: In function ‘SearchMseMean’:
+../../../source/lencod/src/tdrdo.c:304:56: warning: variable ‘TotalBlocksInAframe’ set but not used [-Wunused-but-set-variable]
+     int keyframenum, subframenum, i, subframenumIndex, TotalBlocksInAframe;
+                                                        ^
+../../../source/lencod/src/tdrdo.c: In function ‘CaculateKappaTableLDP’:
+../../../source/lencod/src/tdrdo.c:359:12: warning: variable ‘smoothfactor’ set but not used [-Wunused-but-set-variable]
+     double smoothfactor;
+            ^
+../../../source/lencod/src/tdrdo.c:354:9: warning: unused variable ‘BlockSize’ [-Wunused-variable]
+     int BlockSize = realDlist->FrameDistortionArray[0].BlockSize;
+         ^
+../../../source/lencod/src/tdrdo.c:353:9: warning: unused variable ‘BlocksInWidth’ [-Wunused-variable]
+     int BlocksInWidth = realDlist->FrameDistortionArray[0].TotalBlockNumInWidth;
+         ^
+
+compiling object file "obj/wquant.o" ...
+compiling object file "obj/block_info.o" ...
+In file included from ../../../source/lencod/inc/global.h:52:0,
+                 from ../../../source/lencod/inc/codingUnit.h:48,
+                 from ../../../source/lencod/src/vlc.c:52:
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/inc/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/src/wquant.c:52:0:
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/src/wquant.c:55:0:
+../../../source/lencod/inc/wquant.h:122:5: warning: missing braces around initializer [-Wmissing-braces]
+     0,  0, -2,
+     ^
+../../../source/lencod/inc/wquant.h:122:5: warning: (near initialization for ‘LambdaQPTab[0]’) [-Wmissing-braces]
+../../../source/lencod/inc/wquant.h:130:5: warning: missing braces around initializer [-Wmissing-braces]
+     0.68, 0.70, 0.60,
+     ^
+../../../source/lencod/inc/wquant.h:130:5: warning: (near initialization for ‘LambdaFTab[0]’) [-Wmissing-braces]
+../../../source/lencod/src/rdoq.c:151:17: warning: ‘llLevelRun.tail’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         n->prev = list->tail;
+                 ^
+../../../source/lencod/src/rdoq.c:193:16: note: ‘llLevelRun.tail’ was declared here
+     LinkedList llLevelRun;
+                ^
+../../../source/lencod/src/rdoq.c:797:48: warning: ‘lagrDelta’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                             lagrAcc += minlagr - lagrDelta;
+                                                ^
+../../../source/lencod/src/rdoq.c:639:29: warning: ‘bestState’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                         int bestState;
+                             ^
+../../../source/lencod/src/rdoq.c:585:26: warning: ‘node’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 node->run++;
+                          ^
+../../../source/lencod/src/rdoq.c:449:88: warning: ‘levelscale_coef’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 levelData[coeff_ctr_in_cg].levelDouble = (((int)absm(curr_blk[yy][xx]) * levelscale_coef) + (1 <<
+                                                                                        ^
+../../../source/lencod/src/rdoq.c:467:28: warning: ‘wqm_coef’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             level = Clip3((-((1 << 18) / wqm_coef)), (((1 << 18) / wqm_coef) - 1), level); //M2239
+                            ^
+../../../source/lencod/src/rdoq.c:430:25: warning: ‘WQMSize’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 iStride = WQMSize >> 2;
+                         ^
+../../../source/lencod/src/rdoq.c:435:45: warning: ‘levelscale’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 levelscale_coef = levelscale[yy & (WQMSize - 1)][xx & (WQMSize - 1)];
+                                             ^
+../../../source/lencod/src/rdoq.c:1024:30: warning: ‘AVS_SCAN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 xx = AVS_SCAN[scanPos][0];
+                              ^
+../../../source/lencod/src/rdoq.c:421:23: warning: ‘WQMSizeId’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             } else if (WQMSizeId == 2) {
+                       ^
+../../../source/lencod/src/wquant.c: In function ‘GetUserDefWQM’:
+../../../source/lencod/src/wquant.c:243:9: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+         snprintf(hc->errortext, ET_SIZE, "Can't open file %s.\n %s.\n", pchFile);
+         ^
+../../../source/lencod/src/wquant.c:243:9: warning: format ‘%s’ expects a matching ‘char *’ argument [-Wformat=]
+../../../source/lencod/src/wquant.c:250:9: warning: pointer targets in passing argument 2 of ‘strstr’ differ in signedness [-Wpointer-sign]
+         if ((ret == NULL) || (strstr(line, WQMType[sizeId]) == NULL && feof(fp))) {
+         ^
+In file included from ../../../source/lencod/src/wquant.c:51:0:
+/usr/include/string.h:342:14: note: expected ‘const char *’ but argument is of type ‘const unsigned char *’
+ extern char *strstr (const char *__haystack, const char *__needle)
+              ^
+../../../source/lencod/src/wquant.c:254:5: warning: pointer targets in passing argument 2 of ‘strstr’ differ in signedness [-Wpointer-sign]
+     } while (strstr(line, WQMType[sizeId]) == NULL);
+     ^
+In file included from ../../../source/lencod/src/wquant.c:51:0:
+/usr/include/string.h:342:14: note: expected ‘const char *’ but argument is of type ‘const unsigned char *’
+ extern char *strstr (const char *__haystack, const char *__needle)
+              ^
+../../../source/lencod/src/wquant.c: In function ‘GetUserDefParam’:
+../../../source/lencod/src/wquant.c:501:11: warning: unused variable ‘escape’ [-Wunused-variable]
+     short escape = 0;
+           ^
+../../../source/lencod/src/wquant.c: In function ‘GetUserDefWQM’:
+../../../source/lencod/src/wquant.c:258:19: warning: ignoring return value of ‘fscanf’, declared with attribute warn_unused_result [-Wunused-result]
+             fscanf(fp, "%d,", &coef);
+                   ^
+In file included from ../../../source/lencod/../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/inc/block_info.h:36,
+                 from ../../../source/lencod/../lcommon/src/block_info.c:35:
+../../../source/lencod/../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/image.c: In function ‘init_frame’:
+../../../source/lencod/src/image.c:1601:109: warning: ‘prevP_no’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         int RPS_idx = he->subGopNum == 1 ? ((hc->coding_order + hc->total_frames * 256 - 1) % he->gop_size) :
+                                                                                                             ^
+../../../source/lencod/src/tdrdo.c: In function ‘MotionDistortion’:
+../../../source/lencod/src/tdrdo.c:225:24: warning: ‘nextcy’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (cy == nextcy && cx == nextcx) {
+                        ^
+../../../source/lencod/src/tdrdo.c:225:40: warning: ‘nextcx’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 if (cy == nextcy && cx == nextcx) {
+                                        ^
+compiling object file "obj/ComAdaptiveLoopFilter.o" ...
+compiling object file "obj/inter-prediction.o" ...
+../../../source/lencod/src/tdrdo.c: In function ‘SearchFrameDistortionArray’:
+../../../source/lencod/src/tdrdo.c:299:5: warning: ‘NewFD’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return NewFD;
+     ^
+In file included from ../../../source/lencod/../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/src/ComAdaptiveLoopFilter.c:44:
+../../../source/lencod/../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/mv-search.c: In function ‘setPSkipMotionVector’:
+../../../source/lencod/src/mv-search.c:1382:9: warning: ‘upright’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int upright;
+         ^
+../../../source/lencod/src/wquant.c: In function ‘CalculateQuantParam’:
+../../../source/lencod/src/wquant.c:405:12: warning: ‘LevelScaleNxN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int ***LevelScaleNxN;
+            ^
+In file included from ../../../source/lencod/../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/inc/inter-prediction.h:38,
+                 from ../../../source/lencod/../lcommon/src/inter-prediction.c:40:
+../../../source/lencod/../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/inter-prediction.c: In function ‘get_reference_list_info’:
+../../../source/lencod/../lcommon/src/inter-prediction.c:322:9: warning: unused variable ‘poc’ [-Wunused-variable]
+     int poc = hc->f_rec->imgtr_fwRefDistance;
+         ^
+../../../source/lencod/src/wquant.c: In function ‘GetUserDefParam’:
+../../../source/lencod/src/wquant.c:521:33: warning: ‘param’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             wq_param[mode][num] = param;
+                                 ^
+../../../source/lencod/src/codingUnit.c: In function ‘LumaResidualCoding8x8_TRANS’:
+../../../source/lencod/src/codingUnit.c:1078:38: warning: ‘iSizeY’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         for (j = iStartY; j < iSizeY + iStartY; j++) {
+                                      ^
+../../../source/lencod/src/codingUnit.c:995:12: warning: ‘iSizeX’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int    iSizeX, iSizeY;
+            ^
+../../../source/lencod/src/codingUnit.c:1078:38: warning: ‘iStartY’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         for (j = iStartY; j < iSizeY + iStartY; j++) {
+                                      ^
+../../../source/lencod/src/codingUnit.c:994:12: warning: ‘iStartX’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int    iStartX, iStartY;
+            ^
+../../../source/lencod/src/image.c: In function ‘encode_one_frame’:
+../../../source/lencod/src/image.c:2270:54: warning: ‘v_buffer’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     he->imgUV_org[1][y][x] = v_buffer[y * input->img_width / 2 + x];
+                                                      ^
+../../../source/lencod/src/image.c:2223:22: note: ‘v_buffer’ was declared here
+     byte *u_buffer, *v_buffer;
+                      ^
+compiling object file "obj/intra-prediction.o" ...
+compiling object file "obj/loop-filter.o" ...
+In file included from ../../../source/lencod/../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/inc/intra-prediction.h:35,
+                 from ../../../source/lencod/../lcommon/src/intra-prediction.c:36:
+../../../source/lencod/../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/intra-prediction.c: In function ‘xPredIntraAngAdi’:
+../../../source/lencod/../lcommon/src/intra-prediction.c:306:15: warning: variable ‘iDy’ set but not used [-Wunused-but-set-variable]
+     int  iDx, iDy, i, j, iTempDx, iTempDy, iXx, iXy, iYx, iYy;
+               ^
+../../../source/lencod/../lcommon/src/intra-prediction.c:306:10: warning: variable ‘iDx’ set but not used [-Wunused-but-set-variable]
+     int  iDx, iDy, i, j, iTempDx, iTempDy, iXx, iXy, iYx, iYy;
+          ^
+../../../source/lencod/src/slice.c:707:25: warning: ‘block_i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     int block_i, block_j;
+                         ^
+../../../source/lencod/src/slice.c:599:69: warning: ‘block_i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             img->rec_ipredmode[1 + block_i / mb_width][1 + (block_i % mb_width)] = img->ipredmode[1 + block_i / mb_width][1 +
+                                                                     ^
+../../../source/lencod/src/slice.c:295:21: warning: ‘block_i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 int block_i, block_j;
+                     ^
+../../../source/lencod/src/slice.c:772:26: warning: ‘currSlice’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 dataPart = &(currSlice->partArr[0]);
+                          ^
+In file included from ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/src/loop-filter.c:41:
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/loop-filter.c: In function ‘checkBoundaryProc’:
+../../../source/lencod/../lcommon/src/loop-filter.c:185:9: warning: unused variable ‘pic_mb_height’ [-Wunused-variable]
+     int pic_mb_height            = img->height / MIN_CU_SIZE;
+         ^
+../../../source/lencod/../lcommon/src/loop-filter.c: In function ‘SAOFrame’:
+../../../source/lencod/../lcommon/src/loop-filter.c:273:30: warning: variable ‘mb_y’ set but not used [-Wunused-but-set-variable]
+     int pix_y, pix_x,  mb_x, mb_y, smb_y, smb_x;
+                              ^
+../../../source/lencod/../lcommon/src/loop-filter.c:273:24: warning: variable ‘mb_x’ set but not used [-Wunused-but-set-variable]
+     int pix_y, pix_x,  mb_x, mb_y, smb_y, smb_x;
+                        ^
+compiling object file "obj/md5.o" ...
+compiling object file "obj/memalloc.o" ...
+compiling object file "obj/transform.o" ...
+../../../source/lencod/../lcommon/src/intra-prediction.c: In function ‘getIntraNeighborAvailabilities’:
+../../../source/lencod/../lcommon/src/intra-prediction.c:525:51: warning: ‘upright’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     p_avail[NEIGHBOR_INTRA_UP_RIGHT]  = (upright  && p_avail[NEIGHBOR_INTRA_UP_RIGHT]);
+                                                   ^
+../../../source/lencod/../lcommon/src/intra-prediction.c:524:51: warning: ‘leftdown’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     p_avail[NEIGHBOR_INTRA_LEFT_DOWN] = (leftdown && p_avail[NEIGHBOR_INTRA_LEFT_DOWN]);
+                                                   ^
+In file included from ../../../source/lencod/../lcommon/src/md5.c:42:0:
+../../../source/lencod/../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/md5.c: In function ‘FileMD5’:
+../../../source/lencod/../lcommon/src/md5.c:229:10: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(&x, 4, 16, p_infile);
+          ^
+../../../source/lencod/../lcommon/src/md5.c:237:14: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+         fread(&x, 4, 16, p_infile);
+              ^
+update tag table
+In file included from ../../../source/lencod/../lcommon/src/../../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/src/../../lcommon/inc/memalloc.h:49,
+                 from ../../../source/lencod/../lcommon/src/memalloc.c:51:
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/src/../../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from ../../../source/lencod/../lcommon/inc/commonVariables.h:46:0,
+                 from ../../../source/lencod/../lcommon/inc/transform.h:34,
+                 from ../../../source/lencod/../lcommon/src/transform.c:36:
+../../../source/lencod/../lcommon/inc/commonStructures.h:74:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*CodingType*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:79:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:84:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:112:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ } /*SE_type*/;
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:132:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:139:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:146:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:152:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/../lcommon/inc/commonStructures.h:162:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+../../../source/lencod/src/codingUnit.c: In function ‘OneComponentChromaPrediction4x4’:
+../../../source/lencod/../lcommon/src/transform.c: In function ‘transform_B8’:
+../../../source/lencod/../lcommon/src/transform.c:1129:9: warning: variable ‘tranSize’ set but not used [-Wunused-but-set-variable]
+     int tranSize;
+         ^
+../../../source/lencod/../lcommon/src/transform.c: In function ‘transform_NSQT’:
+../../../source/lencod/../lcommon/src/transform.c:1203:9: warning: variable ‘tranSize’ set but not used [-Wunused-but-set-variable]
+     int tranSize;
+         ^
+../../../source/lencod/../lcommon/src/transform.c:1200:17: warning: variable ‘iSizeY’ set but not used [-Wunused-but-set-variable]
+     int iSizeX, iSizeY;
+                 ^
+../../../source/lencod/../lcommon/src/transform.c:1200:9: warning: variable ‘iSizeX’ set but not used [-Wunused-but-set-variable]
+     int iSizeX, iSizeY;
+         ^
+../../../source/lencod/../lcommon/src/transform.c: In function ‘inv_transform_B8’:
+../../../source/lencod/../lcommon/src/transform.c:1298:49: warning: variable ‘tranSize’ set but not used [-Wunused-but-set-variable]
+     int shift5, shift6, clipValue1, clipValue2, tranSize;
+                                                 ^
+../../../source/lencod/../lcommon/src/transform.c: In function ‘inv_transform_NSQT’:
+../../../source/lencod/../lcommon/src/transform.c:1371:17: warning: variable ‘iSizeY’ set but not used [-Wunused-but-set-variable]
+     int iSizeX, iSizeY;
+                 ^
+../../../source/lencod/../lcommon/src/transform.c:1371:9: warning: variable ‘iSizeX’ set but not used [-Wunused-but-set-variable]
+     int iSizeX, iSizeY;
+         ^
+../../../source/lencod/src/codingUnit.c:1497:42: warning: ‘mvb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     jj=Clip3(-32768, 32767,(j << 3) + mvb[1] + dmh_pos[dmh_mode][k][1]);
+                                          ^
+../../../source/lencod/src/rdopt.c: In function ‘Mode_Decision_for_AVS_IntraBlocks’:
+../../../source/lencod/src/rdopt.c:560:5: warning: ‘nonzero’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return nonzero;
+     ^
+../../../source/lencod/src/rdopt.c:525:39: warning: ‘best_ipmode’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     currMB->real_intra_pred_modes[b8] = best_ipmode;
+                                       ^
+../../../source/lencod/src/rdopt.c:425:18: warning: ‘uiSad’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         uicost = (double)uiSad + (double)uiModebits * lambda;
+                  ^
+../../../source/lencod/src/lencod.c: In function ‘mergeFld2Frm’:
+../../../source/lencod/src/codingUnit.c: In function ‘OneComponentChromaPrediction4x4_dir’:
+../../../source/lencod/src/codingUnit.c:1671:18: warning: ‘jj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             cury = jj >> 3;
+                  ^
+../../../source/lencod/src/lencod.c:2593:15: warning: ‘p_out_img’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         fclose(p_out_img);
+               ^
+../../../source/lencod/src/lencod.c:2535:29: warning: ‘p_rec_img’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         readOneFrameFromDisk(framesize_in_bytes * nSampleSize, i, p_rec_img, imgY_org_buf_fld);
+                             ^
+../../../source/lencod/src/lencod.c:2534:29: warning: ‘p_org_img’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         readOneFrameFromDisk(framesize_in_bytes * nSampleSize, i, p_org_img, imgY_org_buf);
+                             ^
+../../../source/lencod/src/mv-search.c: In function ‘SubPelBlockMotionSearch_sym’:
+../../../source/lencod/src/mv-search.c:2529:84: warning: ‘rx0_sym’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 *d++      = orig_line[x0  ]  - (PelY_14(ref_pic, ry, rx0) + PelY_14(ref_pic_sym, ry_sym, rx0_sym)) / 2;
+                                                                                    ^
+../../../source/lencod/src/mv-search.c:2171:9: warning: ‘ry0_sym’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     int ry0_sym, rx0_sym, ry_sym;
+         ^
+../../../source/lencod/src/mv-search.c:2437:61: warning: ‘DistanceIndexBw’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 ry0_sym = ((pic_pix_y + y0) << 2) + scale_mv(cand_mv_y, DistanceIndexBw, DistanceIndexFw);
+                                                             ^
+../../../source/lencod/src/mv-search.c:2437:61: warning: ‘DistanceIndexFw’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../../../source/lencod/src/mv-search.c:2534:91: warning: ‘ref_pic_sym’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 *d        = orig_line[x0 + 3]  - (PelY_14(ref_pic, ry, rx0 + 12) + PelY_14(ref_pic_sym, ry_sym,
+                                                                                           ^
+../../../source/lencod/src/mv-search.c:2534:58: warning: ‘ref_pic’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 *d        = orig_line[x0 + 3]  - (PelY_14(ref_pic, ry, rx0 + 12) + PelY_14(ref_pic_sym, ry_sym,
+                                                          ^
+../../../source/lencod/src/codingUnit.c: In function ‘ChromaPrediction4x4’:
+../../../source/lencod/src/codingUnit.c:1853:63: warning: ‘ref’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             mv_wgt[0] = scale_mv(fmv_array[ b8 / 2 ][ b8 % 2 ][ref][fw_mode][0], delta_P[num_skipmode], delta_P[0]);
+                                                               ^
+../../../source/lencod/src/mv-search.c: In function ‘SubPelBlockMotionSearch_bid’:
+../../../source/lencod/src/mv-search.c:2771:38: warning: ‘cand_bmv_y_bid’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   img->mv_range_flag = check_mv_range(bit_size, cand_bmv_x_bid, cand_bmv_y_bid, pic_pix_x, pic_pix_y, blocktype, 0, 0);
+                                      ^
+../../../source/lencod/src/mv-search.c:2771:38: warning: ‘cand_bmv_x_bid’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../../../source/lencod/src/codingUnit.c: In function ‘estLumaCoeff8x8’:
+../../../source/lencod/src/codingUnit.c:2906:22: warning: ‘AVS_SCAN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         xx = AVS_SCAN[icoef][0];
+                      ^
+../../../source/lencod/src/codingUnit.c: In function ‘estChromaCoeff8x8’:
+../../../source/lencod/src/codingUnit.c:2967:22: warning: ‘AVS_SCAN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         xx = AVS_SCAN[icoef][0];
+                      ^
+../../../source/lencod/src/codingUnit.c: In function ‘estRunRate’:
+../../../source/lencod/src/codingUnit.c:3391:40: warning: ‘offset’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         rate += biari_encode_symbol_est(0, pCTX + offset);
+                                        ^
+../../../source/lencod/src/rdopt.c: In function ‘RDCost_for_codingUnits’:
+../../../source/lencod/src/rdopt.c:2197:22: warning: ‘tmp_cbp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             if (mode || tmp_cbp) {
+                      ^
+../../../source/lencod/src/rdopt.c:2421:8: warning: ‘rdcost’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (rdcost >= *min_rdcost) {
+        ^
+../../../source/lencod/src/codingUnit.c: In function ‘writeLumaCoeff8x8_AEC’:
+../../../source/lencod/src/codingUnit.c:3547:22: warning: ‘AVS_SCAN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         xx = AVS_SCAN[icoef][0] + uiPixInSMB_x;
+                      ^
+../../../source/lencod/src/codingUnit.c: In function ‘writeChromaCoeff8x8_AEC’:
+../../../source/lencod/src/codingUnit.c:3657:22: warning: ‘AVS_SCAN’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         xx = AVS_SCAN[icoef][0] + uiPixInSMB_x;
+                      ^
+../../../source/lencod/src/rdopt.c: In function ‘encode_SubMB’:
+../../../source/lencod/src/rdopt.c:3625:21: warning: ‘max_dmh_mode’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                     for (dmh_mode = 0; dmh_mode < max_dmh_mode; dmh_mode++) {
+                     ^
+In file included from ../../../source/lencod/inc/global.h:51:0,
+                 from ../../../source/lencod/inc/rdopt_coding_state.h:51,
+                 from ../../../source/lencod/src/rdopt.c:50:
+../../../source/lencod/inc/../../lcommon/inc/defines.h:323:79: warning: ‘lambda_motion’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define  LAMBDA_FACTOR(lambda)        ((int)((double)(1<<LAMBDA_ACCURACY_BITS)*lambda+0.5))
+                                                                               ^
+../../../source/lencod/src/rdopt.c:3284:17: note: ‘lambda_motion’ was declared here
+     double      lambda_motion, min_rdcost, max_rdcost = 1e30;
+                 ^
+
+creating binary "../../../source/bin/lencod.exe"
+... done
+

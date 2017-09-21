@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="source" name="0">
+      <df name="bin">
+        <df name="10bit">
+        </df>
+        <df name="HDR">
+        </df>
+        <df name="interlace">
+        </df>
+        <df name="OUTPUT">
+          <df name="BlowingBubbles_416x240_50">
+          </df>
+        </df>
+        <df name="scene">
+        </df>
+        <df name="temporal_scalable">
+        </df>
+      </df>
+      <df name="lcommon">
+        <df name="inc">
+          <in>ComAdaptiveLoopFilter.h</in>
+          <in>block_info.h</in>
+          <in>comlab215.h</in>
+          <in>commonStructures.h</in>
+          <in>commonVariables.h</in>
+          <in>contributors.h</in>
+          <in>defines.h</in>
+          <in>inter-prediction.h</in>
+          <in>intra-prediction.h</in>
+          <in>loop-filter.h</in>
+          <in>md5.h</in>
+          <in>memalloc.h</in>
+          <in>transform.h</in>
+        </df>
+        <df name="src">
+          <in>ComAdaptiveLoopFilter.c</in>
+          <in>block_info.c</in>
+          <in>comlab215.c</in>
+          <in>inter-prediction.c</in>
+          <in>intra-prediction.c</in>
+          <in>loop-filter.c</in>
+          <in>md5.c</in>
+          <in>memalloc.c</in>
+          <in>transform.c</in>
+        </df>
+      </df>
+      <df name="ldecod">
+        <df name="inc">
+          <in>AEC.h</in>
+          <in>DecAdaptiveLoopFilter.h</in>
+          <in>annexb.h</in>
+          <in>biaridecod.h</in>
+          <in>block.h</in>
+          <in>codingUnit.h</in>
+          <in>global.h</in>
+          <in>header.h</in>
+          <in>pos_info.h</in>
+          <in>vlc.h</in>
+          <in>wquant.h</in>
+        </df>
+        <df name="src">
+          <in>AEC.c</in>
+          <in>DecAdaptiveLoopFilter.c</in>
+          <in>b_frame.c</in>
+          <in>biaridecod.c</in>
+          <in>bitstream.c</in>
+          <in>block.c</in>
+          <in>codingUnit.c</in>
+          <in>context_ini.c</in>
+          <in>header.c</in>
+          <in>image.c</in>
+          <in>ldecod.c</in>
+          <in>loopfilter.c</in>
+          <in>output.c</in>
+          <in>pos_info.c</in>
+          <in>vlc.c</in>
+          <in>wquant.c</in>
+        </df>
+      </df>
+      <df name="lencod">
+        <df name="inc">
+          <in>AEC.h</in>
+          <in>EncAdaptiveLoopFilter.h</in>
+          <in>adaptiveQP.h</in>
+          <in>biariencode.h</in>
+          <in>bitstream.h</in>
+          <in>block.h</in>
+          <in>codingUnit.h</in>
+          <in>configfile.h</in>
+          <in>fast_me.h</in>
+          <in>global.h</in>
+          <in>header.h</in>
+          <in>image.h</in>
+          <in>mv-search.h</in>
+          <in>pos_info.h</in>
+          <in>ratecontrol.h</in>
+          <in>rdopt_coding_state.h</in>
+          <in>rdoq.h</in>
+          <in>refbuf.h</in>
+          <in>tdrdo.h</in>
+          <in>vlc.h</in>
+          <in>wquant.h</in>
+        </df>
+        <df name="src">
+          <in>AEC.c</in>
+          <in>EncAdaptiveLoopFilter.c</in>
+          <in>adaptiveQP.c</in>
+          <in>background.c</in>
+          <in>biariencode.c</in>
+          <in>bitstream.c</in>
+          <in>block.c</in>
+          <in>codingUnit.c</in>
+          <in>configfile.c</in>
+          <in>context_ini.c</in>
+          <in>fast_me.c</in>
+          <in>golomb.c</in>
+          <in>header.c</in>
+          <in>image.c</in>
+          <in>lencod.c</in>
+          <in>loopfilter.c</in>
+          <in>mv-search.c</in>
+          <in>pos_info.c</in>
+          <in>ratecontrol.c</in>
+          <in>rdopt.c</in>
+          <in>rdopt_coding_state.c</in>
+          <in>rdoq.c</in>
+          <in>refbuf.c</in>
+          <in>slice.c</in>
+          <in>tdrdo.c</in>
+          <in>vlc.c</in>
+          <in>wquant.c</in>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p FramesToBeEncoded=10 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/Jockey_3840x2160.yuv -p FramesToBeEncoded=5 -p SourceWidth=3840 -p SourceHeight=2160 -p ReconFile=enc_Jockey.yuv -p OutputFile=video_Jockey.avs -p FrameRate=6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/Jockey_3840x2160.yuv -p FramesToBeEncoded=5 -p SourceWidth=3840 -p SourceHeight=2160 -p ReconFile=enc_Jockey.yuv -p OutputFile=video_Jockey.avs -p FrameRate=9</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6 -p SizePrint 4</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6 -p SizePrint=4</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p SizePrint=4 -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p SizePrint=0 -p PrintALF=0 -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p SizePrint=4 -p PrintALF=0 -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p SizePrint=0 -p PrintALF=1 -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -f encoder_ldp.cfg -p QPPFrame=32 -p InputFile= ~/origCfP/BlowingBubbles_416x240_50.yuv -p SizePrint=0 -p PrintALF=1 -p FramesToBeEncoded=5 -p SourceWidth=416 -p SourceHeight=240 -p ReconFile=enc_BlowingBubbles.yuv -p OutputFile=video_BlowingBubbles.avs -p FrameRate=6</runcommand>
+        <rundir>/home/brunno/RD17.0_alf_chaveamento/source/bin</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
